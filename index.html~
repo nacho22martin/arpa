@@ -58,8 +58,16 @@
                                          <li> 
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
                                         </li> 
-                                        <li>                                                                          
-                                            <a href="services.html"><i class="icon-tasks"></i><br />Servicios</a>                                      
+                                        <li class="dropdown">                                                                                                    	              														                                        
+                                            	<a class="dropdown" data-toggle="dropdown" href="#"><i class="icon-task"></i><br />Servicios</a>
+                                           	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+ 															<li><a tabindex="-1" href="services.html">Comunicación</a></li>
+  															<li><a tabindex="-1" href="#">Another action</a></li>
+  															<li><a tabindex="-1" href="#">Something else here</a></li>
+  															<li class="divider"></li>
+  															<li><a tabindex="-1" href="#">Separated link</a></li>
+															</ul>
+													 									                                    
                                         </li>                                      
                                         <li>
                                             <a href="contact.html"><i class="icon-envelope-alt"></i><br />Contacto</a>
@@ -88,12 +96,12 @@
                                     <img src="assets/img/slider/2.jpg">
                                     <p class="flex-caption">Trabajo en equipo</p>
                                 </li>
-                                <li data-thumb="assets/img/slider/5.jpg">
-                                    <img src="assets/img/slider/5.jpg">
+                                <li data-thumb="assets/img/slider/3.jpg">
+                                    <img src="assets/img/slider/3.jpg">
                                     <p class="flex-caption">Rentabilidad en los negocios</p>
                                 </li>
-                                <li data-thumb="assets/img/slider/6.jpg">
-                                    <img src="assets/img/slider/6.jpg">
+                                <li data-thumb="assets/img/slider/4.jpg">
+                                    <img src="assets/img/slider/4.jpg">
                                     <p class="flex-caption">Eficiencia en los procesos</p>
                                 </li>
                             </ul>
@@ -183,15 +191,15 @@
                                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
                             </div>
                             <div class="tab-pane" id="B">
-                                <img src="assets/img/testimonials/2.jpg" title="" alt="">
+                              
                                 <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
                             </div>
                             <div class="tab-pane" id="C">
-                                <img src="assets/img/testimonials/3.jpg" title="" alt="">
+                              
                                 <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
                             </div>
                             <div class="tab-pane" id="D">
-                                <img src="assets/img/testimonials/1.jpg" title="" alt="">
+                              
                                 <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
                             </div>
                         </div>
@@ -209,13 +217,13 @@
         <!-- Footer -->
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="widget span3">
+                <div class="row-fluid">
+                   <!--  <div class="widget span3">
                         <h4>Nosotros</h4>
                         <p>Agregar pequeño texto</p>
                         <p><a href="about.html">Leer más...</a></p>
-                    </div>
-                    <div class="widget span3">
+                    </div>-->
+                 <!--     <div class="widget span3">
                         <h4>Últimos Tweets (Opcional)</h4>
                         <div class="show-tweets"></div>
                     </div>
@@ -223,12 +231,20 @@
                         <h4>Fotos (Opcional)</h4>
                         <ul class="flickr-feed"></ul>
                     </div>
+                    
+                <h4>Contacto</h4> -->
                     <div class="widget span3">
-                        <h4>Contacto</h4>
-                        <p><i class="icon-map-marker"></i> Dirección de oficina</p>
-                        <p><i class="icon-phone"></i> Teléfono: 0039 333 12 68 347</p>
-                        <p><i class="icon-user"></i> Skype: arpa</p>
-                        <p><i class="icon-envelope-alt"></i> Email: <a href="mailto:contact@arpa.com.py">contact@arpa.com.py</a></p>
+                       
+                       <p><i class="icon-map-marker"></i>Dirección de oficina</p>
+                    </div>
+                    <div class="widget span3">
+                        <p><i class="icon-phone"></i>Teléfono: 0039 333 12 68 347</p>
+                       </div>
+                    <div class="widget span3">   
+                       <p> <i class="icon-user"></i>Skype: arpa</p>
+                    </div>
+                    <div class="widget span3">
+                       <p><i class="icon-envelope-alt"></i>	Email: <a href="mailto:contact@arpa.com.py">contact@arpa.com.py</a></p>
                     </div>
                 </div>
                 <div class="footer-border"></div>

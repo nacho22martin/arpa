@@ -98,33 +98,25 @@
         </div>
 
         <!-- Services -->
-        <div class="what-we-do container">
+        <div class="what-we-do-2 container">
             <div class="row">
                 <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-eye-open"></i>
-                    </div>
+          
                     <h4>Planificación estratégica de comunicaciones</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,ed do eiusmod tempor incididunt ut labore et.</p>
                 </div>
                 <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-table"></i>
-                    </div>
-                    <h4> Identidad corporativa<br />	.	</h4>
+
+                    <h4> Identidad corporativa<br />	<br /></h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                 </div>
                 <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-magic"></i>
-                    </div>
+                    
                     <h4>Imagen corporativa<br />	<br />	</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                 </div>
                 <div class="service span3">
-                    <div class="icon-awesome">
-                        <i class="icon-print"></i>
-                    </div>
+                  
                     <h4>Diseño de planes y areas de comunicación</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ed do eiusmod tempor incididunt ut labore et.</p>
                 </div>
@@ -163,13 +155,13 @@
          <!-- Footer -->
         <footer>
             <div class="container">
-                <div class="row">
-                    <div class="widget span3">
+                <div class="row-fluid">
+                   <!--  <div class="widget span3">
                         <h4>Nosotros</h4>
                         <p>Agregar pequeño texto</p>
                         <p><a href="about.html">Leer más...</a></p>
-                    </div>
-                    <div class="widget span3">
+                    </div>-->
+                 <!--     <div class="widget span3">
                         <h4>Últimos Tweets (Opcional)</h4>
                         <div class="show-tweets"></div>
                     </div>
@@ -177,12 +169,20 @@
                         <h4>Fotos (Opcional)</h4>
                         <ul class="flickr-feed"></ul>
                     </div>
+                    
+                <h4>Contacto</h4> -->
                     <div class="widget span3">
-                        <h4>Contacto</h4>
-                        <p><i class="icon-map-marker"></i> Dirección de oficina</p>
-                        <p><i class="icon-phone"></i> Teléfono: 0039 333 12 68 347</p>
-                        <p><i class="icon-user"></i> Skype: arpa</p>
-                        <p><i class="icon-envelope-alt"></i> Email: <a href="mailto:contact@arpa.com.py">contact@arpa.com.py</a></p>
+                       
+                       <p><i class="icon-map-marker"></i>Dirección de oficina</p>
+                    </div>
+                    <div class="widget span3">
+                        <p><i class="icon-phone"></i>Teléfono: 0039 333 12 68 347</p>
+                       </div>
+                    <div class="widget span3">   
+                       <p> <i class="icon-user"></i>Skype: arpa</p>
+                    </div>
+                    <div class="widget span3">
+                       <p><i class="icon-envelope-alt"></i>	Email: <a href="mailto:contact@arpa.com.py">contact@arpa.com.py</a></p>
                     </div>
                 </div>
                 <div class="footer-border"></div>

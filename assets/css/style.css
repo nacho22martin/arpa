@@ -77,8 +77,27 @@ strong { font-weight: bold; }
     color: #A4A4A4;
     text-shadow: none;
 }
+.header ul.nav li .dropdown a {
+    padding: 30px 20px 10px 20px;
+    color: #A4A4A4;
+    text-shadow: none;
+}
+
+
+.header ul.nav li .dropdown-menu {
+    
+    text-align: left;
+
+}
+
 
 .header ul.nav li.current-page a {
+    padding-top: 25px;
+    border-top: 5px solid #9d426b;
+
+}
+
+.header ul.nav li.current-page .dropdown-menu a {
     padding-top: 25px;
     border-top: 5px solid #9d426b;
 
@@ -89,10 +108,25 @@ strong { font-weight: bold; }
     color: #fff;
 }
 
+.header ul.nav li .dropdown-menu a:hover {
+    background: #9d426b;
+    color: #fff;
+}
+
+.header ul.nav li a:focus {
+    background: #9d426b;
+    color: #fff;
+}
+
 .header ul.nav li a i {
     line-height: 35px;
     color: #fff;
 }
+.header ul.nav li .dropdown-menu a i {
+    line-height: 35px;
+    color: #fff;
+}
+
 
 .header ul.nav li a:hover i { color: #fff; }
 
@@ -234,6 +268,85 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .service a:active {
+    -moz-box-shadow:
+        0 5px 10px 0 rgba(0,0,0,.15) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow:
+        0 5px 10px 0 rgba(0,0,0,.15) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    box-shadow:
+        0 5px 10px 0 rgba(0,0,0,.15) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+}
+/* ----- What we do Service page ----- */
+
+.what-we-do-2 {
+    margin-top: 50px;
+}
+
+.what-we-do-2 .service {
+    padding-bottom: 23px;
+    background: #F4D0D4;
+    border-bottom: 2px solid #9d426b;
+}
+
+.what-we-do-2 .service:hover {
+    box-shadow:
+        0 5px 15px 0 rgba(0,0,0,.1),
+        0 1px 25px 0 rgba(0,0,0,.1) inset,
+        0 -1px 25px 0 rgba(0,0,0,.1) inset;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    
+}
+
+.what-we-do-2 .service .icon-awesome {
+    margin-top: 15px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #5d5d5d;
+}
+
+.what-we-do-2 .service h4 {
+    margin-top: 5px;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+.what-we-do-2 .service p {
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+
+.what-we-do-2 .service a {
+    padding: 5px 22px;
+    background: #9d426b;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    -moz-box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+}
+
+.what-we-do-2 .service a:hover {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.what-we-do-2 .service a:active {
     -moz-box-shadow:
         0 5px 10px 0 rgba(0,0,0,.15) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
@@ -424,7 +537,9 @@ footer {
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
 }
-
+footer .container h4{
+	text-align: left;
+}
 footer .widget {
     margin-top: 20px;
     text-align: left;
@@ -441,6 +556,7 @@ footer .widget h4 {
 
 footer .widget p {
     line-height: 24px;
+    text-align: center;
 }
 
 footer .widget i {
