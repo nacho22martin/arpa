@@ -57,9 +57,9 @@
                                         </li>
                                          <li>
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
-                                        </li class="current-page">                                     
+                                        </li>                                     
                                              <li class="dropdown">                                                                                                    	              														                                        
-                                            	<a class="dropdown" data-toggle="dropdown" href="#"><i class="icon-tasks"></i><br />Servicios</a>
+                                            	<a  href="servicios.html" class="dropdown" data-toggle="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
                                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
  															<li><a tabindex="-1" href="services.html">Comunicación</a></li>
   															<li><a tabindex="-1" href="#">Another action</a></li>
@@ -216,6 +216,14 @@
         <script src="assets/js/jquery.quicksand.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/scripts.js"></script>
+       	<script src="http://cameronspear.com/downloads/twitter-bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.js?view=1"></script>        
+		<script>
+    		// very simple to use!
+    			$(document).ready(function() {
+      		$('.js-activated').dropdownHover().dropdown();
+    			});
+  			</script>
+
 
     </body>
 

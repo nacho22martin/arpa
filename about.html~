@@ -58,8 +58,16 @@
                                          <li class="current-page">
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
                                         </li>                                     
-                                        <li>
-                                            <a href="services.html"><i class="icon-tasks"></i><br />Servicios</a>
+                                        <li class="dropdown">                                                                                                    	              														                                        
+                              	      	<a  href="#" class="dropdown" data-toggle="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios</a>
+                                           	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+ 															<li><a tabindex="-1" href="services.html">Comunicación</a></li>
+  															<li><a tabindex="-1" href="#">Another action</a></li>
+  															<li><a tabindex="-1" href="#">Something else here</a></li>
+  															<li class="divider"></li>
+  															<li><a tabindex="-1" href="#">Separated link</a></li>
+															</ul>
+													 									                                    
                                         </li>
                                        
                                         <li>
@@ -251,7 +259,13 @@
         <script src="assets/js/jquery.quicksand.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/scripts.js"></script>
-
+       	<script src="http://cameronspear.com/downloads/twitter-bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.js?view=1"></script>        
+		<script>
+    		// very simple to use!
+    			$(document).ready(function() {
+      		$('.js-activated').dropdownHover().dropdown();
+    			});
+  			</script>
     </body>
 
 </html>
