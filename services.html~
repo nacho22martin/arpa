@@ -60,17 +60,16 @@
                                         </li>                                     
                                              <li class="dropdown">                                                                                                    	              														                                        
                                             	<a  href="services.html" class="dropdown" data-toggle="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
-                                           	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
- 															<li><a tabindex="-1" href="services.html">Comunicación</a></li>
-  															<li><a tabindex="-1" href="#">Another action</a></li>
-  															<li><a tabindex="-1" href="#">Something else here</a></li>
-  															<li class="divider"></li>
-  															<li><a tabindex="-1" href="#">Separated link</a></li>
+                                              	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+ 															<li><a tabindex="-1" href="Servicios/comunicacion.html">Comunicación Organizacional</a></li>
+  															<li><a tabindex="-1" href="Servicios/outsourcing_comercial.html">Outsourcing Comercial</a></li>
+  															<li><a tabindex="-1" href="Servicios/opt_de_procesos.html">Optimización de Procesos de Gestión</a></li>  													
+
 															</ul>
 													 									                                    
                                         </li>      
                                         <li>
-                                            <a href="contact.html"><i class="icon-envelope-alt"></i><br />Contacto</a>
+                                            <a href="../contact.html"><i class="icon-envelope-alt"></i><br />Contacto</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -98,66 +97,29 @@
         <div class="services-full-width container">
             <div class="row">
                 <div class="services-full-width-text span12">
-                    <h4>Comunicación</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
+                    <h4><a href="Servicios/Comunicacion.html">Comunicación Organizacional</a></h4>                 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt. <a href="servicios/comunicacion.html">Más</a></p>
+                   
                 </div>
             </div>
         </div>
-
-        <!-- Services -->
-        <div class="what-we-do-2 container">
+        <div class="services-full-width container">
             <div class="row">
-                <div class="service span3">
-          
-                    <h4>Planificación estratégica de comunicaciones</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,ed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-                <div class="service span3">
-
-                    <h4> Identidad corporativa<br />	<br /></h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-                <div class="service span3">
-                    
-                    <h4>Imagen corporativa<br />	<br />	</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                </div>
-                <div class="service span3">
-                  
-                    <h4>Diseño de planes y areas de comunicación</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ed do eiusmod tempor incididunt ut labore et.</p>
+                <div class="services-full-width-text span12">
+                    <h4><a href="Servicios/outsourcing_comercial.html">Outsourcing Comercial</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt. <a href="servicios/outsourcing_comercial.html">Más</a></p>
                 </div>
             </div>
         </div>
-
-        <!-- Services Half Width Text -->
-        <div class="services-half-width container">
+                <div class="services-full-width container">
             <div class="row">
-                <div class="services-half-width-text span6">
-                    <h4>Capacitación</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
-                </div>
-                <div class="services-half-width-text span6">
-                    <h4>Simulación de Procesos</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
+                <div class="services-full-width-text span12">
+                    <h4><a href="Servicios/opt_de_procesos.html">Optimización de Procesos de Gestión</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt. <a href="servicios/opt_de_procesos.html">Más</a></p>
                 </div>
             </div>
         </div>
-
-        <!-- Call To Action -->
-        <div class="call-to-action container">
-            <div class="row">
-                <div class="call-to-action-text span12">
-                    <div class="ca-text">
-                        <p>En <span class="violet">AR-PA</span>, encontraras la excelencia profesional para tu negocio.</p>
-                    </div>
-                    <div class="ca-button">
-                        <a href="contact.html">Contactanos ahora!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+ 
         <!-- Footer -->
          <!-- Footer -->
         <footer>
