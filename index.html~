@@ -63,8 +63,8 @@
                                             	<a  href="services.html" class="dropdown" data-toggle="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
                                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
  															<li><a tabindex="-1" href="services.html">Comunicación Organizacional</a></li>
-  															<li><a tabindex="-1" href="#">Outsourcing Comercial</a></li>
-  															<li><a tabindex="-1" href="#">Optimización de Procesos de Gestión</a></li>  													
+  															<li><a tabindex="-1" href="services.html">Outsourcing Comercial</a></li>
+  															<li><a tabindex="-1" href="services.html">Optimización de Procesos de Gestión</a></li>  													
 
 															</ul>
 													 									                                    
