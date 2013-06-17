@@ -177,7 +177,7 @@
         <script src="assets/js/jquery.quicksand.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/scripts.js"></script>
-       	<script src="http://cameronspear.com/downloads/twitter-bootstrap-hover-dropdown/twitter-bootstrap-hover-dropdown.js?view=1"></script>        
+       	<script src="assets/js/twitter-bootstrap-hover-dropdown.js?view=1"></script>
 		<script>
     		// very simple to use!
     			$(document).ready(function() {
