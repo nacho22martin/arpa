@@ -97,7 +97,18 @@ strong { font-weight: bold; }
 
 }
 
+.header ul.nav li.current-page .dropdown-menu a {
+    padding-top: 25px;
+    border-top: 5px solid #9d426b;
+
+}
+
 .header ul.nav li a:hover {
+    background: #9d426b;
+    color: #fff;
+}
+
+.header ul.nav li .dropdown-menu a:hover {
     background: #9d426b;
     color: #fff;
 }
@@ -111,6 +122,11 @@ strong { font-weight: bold; }
     line-height: 35px;
     color: #fff;
 }
+.header ul.nav li .dropdown-menu a i {
+    line-height: 35px;
+    color: #fff;
+}
+
 
 .header ul.nav li a:hover i { color: #fff; }
 

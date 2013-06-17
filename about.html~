@@ -59,7 +59,7 @@
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
                                         </li>                                     
                                         <li class="dropdown">                                                                                                    	              														                                        
-                              	      	<a  href="#" class="dropdown" data-toggle="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios</a>
+                              	      	<a  href="#" class="dropdown" data-toggle="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
                                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
  															<li><a tabindex="-1" href="services.html">Comunicación</a></li>
   															<li><a tabindex="-1" href="#">Another action</a></li>

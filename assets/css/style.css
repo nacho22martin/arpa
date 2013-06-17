@@ -87,6 +87,7 @@ strong { font-weight: bold; }
 .header ul.nav li .dropdown-menu {
     
     text-align: left;
+    font-size: 12px;
 
 }
 
