@@ -52,7 +52,7 @@ strong { font-weight: bold; }
 }
 
 .header h1 {
-    float: left;
+    float: right;
     margin: 0;
     text-align: left;
 }

@@ -48,11 +48,11 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </a>
-                                <h1>
+                                <h1 align="right">
                                     <a class="brand" href="index.html">AR-PA Asesoramos empresas...</a>
                                 </h1>
                                 <div class="nav-collapse collapse">
-                                    <ul class="nav pull-right">
+                                    <ul class="nav pull-left">
                                         <li class="current-page">
                                             <a href="index.html"><i class="icon-home"></i><br />Inicio</a>
                                         </li>
@@ -60,7 +60,7 @@
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
                                         </li> 
                                         <li class="dropdown">                                                                                                    	              														                                        
-                                            	<a  href="services.html" class="dropdown" data-toggle="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
+                                            	<a  href="services.html" class="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
                                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
  															<li><a tabindex="-1" href="Servicios/comunicacion.html">Comunicación Organizacional</a></li>
   															<li><a tabindex="-1" href="Servicios/outsourcing_comercial.html">Outsourcing Comercial</a></li>
@@ -178,7 +178,7 @@
         </div>
 -->
         <!-- Testimonials -->
-        <div class="testimonials container">
+      <!--  <div class="testimonials container">
             <div class="testimonials-title">
                 <h3>Testimonios</h3>
             </div>
@@ -188,7 +188,7 @@
                         <div class="tab-content">
                             <div class="tab-pane active" id="A">
                                 <!--<img src="assets/img/testimonials/1.jpg" title="" alt="">-->
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
+             <!--                   <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
                             </div>
                             <div class="tab-pane" id="B">
                               
@@ -215,7 +215,7 @@
         </div>
 
         <!-- Footer -->
-        <footer>
+      <!--  <footer>
             <div class="container">
                 <div class="row-fluid">
                    <!--  <div class="widget span3">
@@ -232,8 +232,8 @@
                         <ul class="flickr-feed"></ul>
                     </div>
                     
-                <h4>Contacto</h4> -->
-                    <div class="widget span3">
+        <!--        <h4>Contacto</h4> -->
+          <!--          <div class="widget span3">
                        
                        <p><i class="icon-map-marker"></i>Dirección de oficina</p>
                     </div>

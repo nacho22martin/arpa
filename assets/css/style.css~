@@ -52,7 +52,7 @@ strong { font-weight: bold; }
 }
 
 .header h1 {
-    float: left;
+    float: right;
     margin: 0;
     text-align: left;
 }
@@ -87,6 +87,7 @@ strong { font-weight: bold; }
 .header ul.nav li .dropdown-menu {
     
     text-align: left;
+    font-size: 12px;
 
 }
 
