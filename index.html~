@@ -7,13 +7,13 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>AR-PA | Asesoramiento a empresas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="Facilitamos herramientas y acompañamos procesos que conlleven a la Gestión Sostenible de las organizaciones, en el Área de Comunicación, Desarrollo Comercial y Responsabilidad Social. Buscamos optimizar los recursos de las empresas, fortalecer la calidad de vida laboral de las personas y lograr el desarrollo efectivo de proyectos.">
         <meta name="author" content="Ignacio" >
-
+			<meta name="keywords" content="consultoría, comercialización, simulación, procesos, soluciones">
         <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
@@ -39,8 +39,16 @@
 
         <!-- Header -->
         <div class="container">
+               <div class="row">
+                	<div class="span1"></div>
+                		<div class="span10">
+               			<img src="assets/img/top.png" alt="">
+               		</div>
+	               <div class="span1"></div>
+   				</div>            
                 <div class="header row">
-                    <div class="span12">
+						<div class="span1"></div>                    
+                    <div class="span10">
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -48,7 +56,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </a>
-                                <h1 align="right">
+                                <h1>
                                     <a class="brand" href="index.html">AR-PA Asesoramos empresas...</a>
                                 </h1>
                                 <div class="nav-collapse collapse">
@@ -77,51 +85,60 @@
                             </div>
                         </div>
                     </div>
+                 <div class="span1"></div>   
                 </div>
+               
         </div>
 
         <!-- Slider -->
-        <div class="slider" style="height: 500px">
-            <div class="container">
+        <div class="slider" style="height: float">
+         <div class="container">
                 <div class="row">
-                    <!-- <div class="span10 offset1"> -->
- 							<div align="center">                        
+                	<div class="span1"></div>
+                    <div class="span10">
+ 							 <div align="center">                        
                         <div class="flexslider">
                             <ul class="slides" >
-                                <li data-thumb="assets/img/slider/1.jpg">
+                                <li data-thumb="assets/img/dot.png">
                                     <img src="assets/img/slider/1.jpg">
-                                    <p class="flex-caption"> Confianza en nuestra gente</p>
+                                    <p class="flex-caption"><b>Un cliente</b> es aquella persona natural o jurídica que realiza la transacción comercial denominada compra. Cliente puede referirse a:
+En informática, cliente es un equipo o proceso que consume recursos y servicios brindados por otro llamado servidor, generalmente de forma remota.
+Un cliente de videojuego, usado para jugar un videojuego en línea y que se conecta a un servidor de videojuego.
+</p>
                                 </li>
-                                <li data-thumb="assets/img/slider/2.jpg">
+                                <li data-thumb="assets/img/dot.png">
                                     <img src="assets/img/slider/2.jpg">
-                                    <p class="flex-caption">Trabajo en equipo</p>
+                                    <p class="flex-caption">Un <b>proveedor de servicios</b> es una entidad que presta servicios a otras entidades. Por lo general, esto se refiere a un negocio que ofrece la suscripción o servicio web a otras empresas o particulares. Ejemplos de estos servicios incluyen: acceso a internet, operador de telefonía móvil, y alojamiento de aplicaciones web.</p>
                                 </li>
-                                <li data-thumb="assets/img/slider/3.jpg">
+                                <li data-thumb="assets/img/dot.png">
                                     <img src="assets/img/slider/3.jpg">
-                                    <p class="flex-caption">Rentabilidad en los negocios</p>
+                                    <p class="flex-caption"><b>Internet</b> es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de protocolos TCP/IP, garantizando que las redes físicas heterogéneas que la componen funcionen como una red lógica única, de alcance mundial. Sus orígenes se remontan a 1969, cuando se estableció la primera conexión de computadoras, conocida como ARPANET, entre tres universidades en California y una en Utah, Estados Unidos.</p>
                                 </li>
-                                <li data-thumb="assets/img/slider/4.jpg">
+                                <li data-thumb="assets/img/dot.png">
                                     <img src="assets/img/slider/4.jpg">
-                                    <p class="flex-caption">Eficiencia en los procesos</p>
+                                    <p class="flex-caption">El responsable de la comunidad virtual, digital, en línea o de internet, es quien actúa como auditor de la marca en los medios sociales; o gestor (también llamado en inglés como community manager) 1 cumple un nuevo rol dentro de la mercadotecnia, la Publicidad Online y la documentación, pues es una profesión emergente al igual que lo es el Record Manager.</p>
                                 </li>
                             </ul>
-                            </div>
-                        </div>
-                    <!-- </div> -->
+                       </div>
+                      </div>                                       
                 </div>
             </div>
+            <div class="span1"></div>
         </div>
-
+			</div>
         <!-- Site Description -->
         <div class="presentation container">
+        	<div class="span1"></div>
+        	<div class="span10">	
             <h2>Somos AR-PA especialistas en asesoramiento a empresas</h2>
             <p>Facilitamos herramientas y acompañamos procesos que conlleven a la Gestión Sostenible de las organizaciones, en el Área de Comunicación, Desarrollo Comercial y Responsabilidad Social. Buscamos optimizar los recursos de las empresas, fortalecer la calidad de vida laboral de las personas y lograr el desarrollo efectivo de proyectos.</p>
         </div>
+        <div class="span1"></div>
 
         <!-- Services -->
         <div class="what-we-do container">
             <div class="row">
-                <div class="service span4">
+                <div class="service span3">
                     <div class="icon-awesome">
                         <i class="icon-group"></i>
                     </div>
@@ -129,7 +146,7 @@
                     <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
                     <a href="services.html">Más</a>
                 </div>
-                <div class="service span4">
+                <div class="service span3">
                     <div class="icon-awesome">
                         <i class="icon-bar-chart"></i>
                     </div>
@@ -137,12 +154,12 @@
                     <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
                     <a href="services.html">Más</a>
                 </div>
-                <div class="service span4">
+                <div class="service span3">
                     <div class="icon-awesome">
                         <i class="icon-sitemap"></i>
                     </div>
                     <h4>OPTIMIZACIÓN DE PROCESOS DE GESTIÓN</h4>
-                    <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
+                    <p>Breve texto expli. del servicio principal...</p>
                     <a href="services.html">Más</a>
                 </div>              
             </div>
@@ -215,9 +232,16 @@
         </div>
 
         <!-- Footer -->
-      <!--  <footer>
+     <footer>
             <div class="container">
-                <div class="row-fluid">
+               <div class="row-fluid">
+               	<div class="span1"></div>
+						<div class="span10"><p>Primer Presidente 3708 esq.Américo Merlo (Planta Alta) cel:(595) 98 4119207 info@arpa.com.py</p>    
+					</div>
+					<div class="span1"></div>
+					</div>
+					
+				</div>               
                    <!--  <div class="widget span3">
                         <h4>Nosotros</h4>
                         <p>Agregar pequeño texto</p>
@@ -257,7 +281,7 @@
                         <a class="twitter" href=""></a>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </footer>
 
         <!-- Javascript -->
