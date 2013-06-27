@@ -153,6 +153,7 @@ strong { font-weight: bold; }
 
 .flexslider {
     width: 970px;
+    height: 370px;
     margin-bottom: 0;
     border-top: 6px solid #fff;
     border-bottom: 6px solid #fff;
@@ -190,8 +191,8 @@ strong { font-weight: bold; }
 .flexslider li {
 	
 	width: 25px;
-	
 	float: center;
+	
 	
 	}
 .flexslider .slides img {
@@ -222,6 +223,7 @@ strong { font-weight: bold; }
 .presentation p {
     font-size: 18px;
     text-align: justify;
+    margin: 0 0 30px;
 
 }
 
@@ -1139,7 +1141,7 @@ ul.portfolio-img li {
 .filter-portfolio a#active-imgs:hover { color: #5d5d5d; }
 
 
-.row.center {   position: relative; margin: auto;   width: 100%; }
+.row.center {  margin: auto;   width: 100%; float: center;}
 
 
 @media (min-width: 980px) and (max-width: 1200px) {
@@ -1147,9 +1149,11 @@ ul.portfolio-img li {
     .flex-caption {
         max-width: 700px;
     }
+    
      .flexslider {
      	
 		width: 780px;
+		height: 300px;
 	    	
     	}
 
@@ -1189,7 +1193,7 @@ ul.portfolio-img li {
     .flexslider {
 		
 		width: 600px;
-	    	
+	   height: 230px;
     	}
 
     .header ul.nav li a i, .header ul.nav li a br {
