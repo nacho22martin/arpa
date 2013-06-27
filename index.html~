@@ -68,7 +68,7 @@
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
                                         </li> 
                                         <li class="dropdown">                                                                                                    	              														                                        
-                                            	<a  href="services.html" class="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
+                                            	<a  href="services.html" class="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios</a>
                                            	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
  															<li><a tabindex="-1" href="Servicios/comunicacion.html">Comunicación Organizacional</a></li>
   															<li><a tabindex="-1" href="Servicios/outsourcing_comercial.html">Outsourcing Comercial</a></li>
@@ -91,11 +91,12 @@
         </div>
 
         <!-- Slider -->
-        <div class="slider" style="height: float">
-         <div class="container">
+        
+         <div class="container">         	
                 <div class="row">
                 	<div class="span1"></div>
                     <div class="span10">
+                    	<div class="slider" style="height: float">
  							 <div align="center">                        
                         <div class="flexslider">
                             <ul class="slides" >
@@ -120,25 +121,33 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                                 </li>
                             </ul>
                        </div>
-                      </div>                                       
-                </div>
-            </div>
-            <div class="span1"></div>
-        </div>
+                     </div>                                       
+                		</div>
+            			</div>
+            			<div class="span1"></div>
+        				  
+        			      </div>
+       			 </div>
 			</div>
         <!-- Site Description -->
         <div class="presentation container">
-        	<div class="span1"></div>
-        	<div class="span10">	
+        	<div class="row">
+        		<div class="span1"></div>
+        		<div class="span10">	        		        		        		        	
             <h2>Somos AR-PA especialistas en asesoramiento a empresas</h2>
             <p>Facilitamos herramientas y acompañamos procesos que conlleven a la Gestión Sostenible de las organizaciones, en el Área de Comunicación, Desarrollo Comercial y Responsabilidad Social. Buscamos optimizar los recursos de las empresas, fortalecer la calidad de vida laboral de las personas y lograr el desarrollo efectivo de proyectos.</p>
-        </div>
-        <div class="span1"></div>
-
+        		
+        		</div>
+        		<div class="span1"></div>
+			</div>
+		  </div>
         <!-- Services -->
         <div class="what-we-do container">
             <div class="row">
-                <div class="service span3">
+            	<div class="span1"></div>
+            	<div class="class10">
+            		<div class="row">
+                	<div class="service span4">
                     <div class="icon-awesome">
                         <i class="icon-group"></i>
                     </div>
@@ -146,7 +155,7 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                     <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
                     <a href="services.html">Más</a>
                 </div>
-                <div class="service span3">
+                <div class="service span4">
                     <div class="icon-awesome">
                         <i class="icon-bar-chart"></i>
                     </div>
@@ -154,14 +163,17 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                     <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
                     <a href="services.html">Más</a>
                 </div>
-                <div class="service span3">
+                <div class="service span4">
                     <div class="icon-awesome">
                         <i class="icon-sitemap"></i>
                     </div>
                     <h4>OPTIMIZACIÓN DE PROCESOS DE GESTIÓN</h4>
-                    <p>Breve texto expli. del servicio principal...</p>
+                    <p>Breve texto explicativo del servicio que se presta, caracteristicas principales...</p>
                     <a href="services.html">Más</a>
-                </div>              
+                </div>
+                </div>
+               </div>
+               <div class="span1"></div>              
             </div>
         </div>
 
@@ -234,11 +246,16 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
         <!-- Footer -->
      <footer>
             <div class="container">
-               <div class="row-fluid">
+               <div class="row">
                	<div class="span1"></div>
-						<div class="span10"><p>Primer Presidente 3708 esq.Américo Merlo (Planta Alta) cel:(595) 98 4119207 info@arpa.com.py</p>    
-					</div>
-					<div class="span1"></div>
+						<div class="span10">								
+							<div class="row-fluid">
+							<div class="span4"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta) </p></div>
+							<div class="span4"><p>cel:(595) 98 4119207 </p></div>
+							<div class="span4"><p>info@arpa.com.py</p></div>
+							</div>
+						</div>
+						<div class="span1"></div>
 					</div>
 					
 				</div>               

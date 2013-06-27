@@ -71,9 +71,9 @@ strong { font-weight: bold; }
 .header a.brand {
     display: inline-block;
     text-indent: -9999px;
-    width: 280px;
+    width: 210px;
     height: 25px;
-    padding: 30px 0;
+    padding: 41px 0;
     background: url(../img/logo.png) 20px center no-repeat;
 }
 
@@ -173,21 +173,32 @@ strong { font-weight: bold; }
 }
 
 .flex-caption {
-    position: absolute;
-    bottom: 20px;
-    max-width: 400px;
-    padding: 10px 20px;
-    margin: 0 0 0 520px;
-    background: #1d1d1d; /* browsers that don't support rgba */
-    background: rgba(0, 0, 0, .7);
-    font-size: 14px;
-    line-height: 24px;
-    color: #eaeaea;
-    text-align: left;
-    font-style: italic;
+	position: absolute;
+	bottom: 0px;
+	max-width: 923px;
+	padding: 6px 23px;
+	margin: 0 0 0 0px;
+	background: #1d1d1d;
+	background: rgba(66, 15, 68, .7);
+	font-size: 14px;
+	line-height: 24px;
+	color: #eaeaea;
+	font-style: italic;
+	text-align: justify;;
 }
 
-
+.flexslider li {
+	
+	width: 25px;
+	
+	float: center;
+	
+	}
+.flex-control-thumbs img {
+	width: 40%;
+		
+	
+		}
 
 /* ----- Presentation ----- */
 
@@ -199,10 +210,12 @@ strong { font-weight: bold; }
     font-family: 'Verdana', cursive;
     font-size: 25px;
     color: #5d5d5d;
+    margin: 30px 0;
 }
 
 .presentation p {
     font-size: 18px;
+    text-align: justify;
 
 }
 
@@ -214,9 +227,9 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .service {
-	 margin-bottom: 20px; 
+	 margin-bottom: 60px; 
 	 max-width: 300px;   
-	 min-height: 230px;
+	 min-height: 237px;
     padding-bottom: 23px;
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
