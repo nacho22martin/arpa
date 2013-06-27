@@ -565,7 +565,7 @@ strong { font-weight: bold; }
 
 footer {
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
     -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
     -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
@@ -583,6 +583,7 @@ footer .container h4{
 footer .span10 {
 	
 	background: #610B4B;
+	padding-top: 8px;
 	
 	}
 footer .widget {

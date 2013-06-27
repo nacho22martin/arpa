@@ -184,7 +184,7 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
             <div class="container">
                <div class="row">
                	<div class="span1"></div>
-						<div class="span10" style="padding-top: 6px;">								
+						<div class="span10">								
 							<div class="row-fluid">
 							<div class="span5"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta)</p></div>							
 							<div class="span1"><p>/</p></div>							
@@ -192,15 +192,7 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
 							<div class="span1"><p>/</p></div>
 							<div class="span2"><p>info@arpa.com.py</p></div>
 							</div>
-						</div>>								
-							<div class="row-fluid">
-							<div class="span6"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta)</p></div>							
-							<div class="span1"><p>/ </p></div>							
-							<div class="span2"><p>cel:(595) 98 4119207 </p></div>							
-							<div class="span1"><p>/</p></div>
-							<div class="span2"><p>info@arpa.com.py</p></div>
-							</div>
-						</div>
+						</div>																					
 						<div class="span1"></div>
 					</div>
 					
