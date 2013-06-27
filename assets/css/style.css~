@@ -236,7 +236,7 @@ strong { font-weight: bold; }
 
 .what-we-do .service {
 	 margin-bottom: 60px; 
-	 max-width: 300px;   
+	 max-width: 370px;   
 	 min-height: 237px;
     padding-bottom: 23px;
     background: #f8f8f8;
@@ -573,7 +573,8 @@ footer {
 }
 footer .row-fluid p {
 
-	font-size: 12px;	
+	font-size: 12px;
+	color: #fff;	
 	
 	}
 footer .container h4{
