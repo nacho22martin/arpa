@@ -194,10 +194,16 @@ strong { font-weight: bold; }
 	float: center;
 	
 	}
+.flexslider .slides img {
+	
+	max-width:100%;  height:auto;	
+	
+	}	
+	
+	
 .flex-control-thumbs img {
 	width: 40%;
-		
-	
+			
 		}
 
 /* ----- Presentation ----- */
@@ -1133,15 +1139,19 @@ ul.portfolio-img li {
 .filter-portfolio a#active-imgs:hover { color: #5d5d5d; }
 
 
+.row.center {   position: relative; margin: auto;   width: 100%; }
 
-
-/* ----- Media queries ----- */
 
 @media (min-width: 980px) and (max-width: 1200px) {
 
     .flex-caption {
         max-width: 700px;
     }
+     .flexslider {
+     	
+		width: 780px;
+	    	
+    	}
 
     .what-we-do .service p, .portfolio .work p {
         padding-left: 10px;
@@ -1176,6 +1186,11 @@ ul.portfolio-img li {
     .header ul.nav li.current-page a {
         padding-top: 15px;
     }
+    .flexslider {
+		
+		width: 600px;
+	    	
+    	}
 
     .header ul.nav li a i, .header ul.nav li a br {
         display: none;
