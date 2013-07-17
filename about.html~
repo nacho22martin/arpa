@@ -7,39 +7,49 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>AR-PA | Asesoramiento a empresas</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="Facilitamos herramientas y acompañamos procesos que conlleven a la Gestión Sostenible de las organizaciones, en el Área de Comunicación, Desarrollo Comercial y Responsabilidad Social. Buscamos optimizar los recursos de las empresas, fortalecer la calidad de vida laboral de las personas y lograr el desarrollo efectivo de proyectos.">
         <meta name="author" content="Ignacio" >
-
+			<meta name="keywords" content="consultoría, comercialización, simulación, procesos, soluciones">
         <!-- CSS -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">    
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
         <link rel="stylesheet" href="assets/css/font-awesome.css">
         <link rel="stylesheet" href="assets/css/style.css">
-
+			
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
+			<!--<style type="text/css">.dropdown-submenu:hover>.dropdown-menu{display:none}</style>-->
+			
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/FAV.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-		
+	
+	
+	
     </head>
 
     <body>
 
         <!-- Header -->
         <div class="container">
+                 <div class="row">
+                	<div class="span1"></div>
+                		<div class="span10">
+               			<img src="assets/img/top.png" alt="" style="width: 100%;">
+               		</div>
+	               <div class="span1"></div>
+   				</div>            
                 <div class="header row">
-                    <div class="span12">
+						<div class="span1"></div>                    
+                    <div class="span10">
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -48,27 +58,23 @@
                                     <span class="icon-bar"></span>
                                 </a>
                                 <h1>
-                                    <a class="brand" href="index.html">AR-PA Asesoramso empresas...</a>
+                                    <a class="brand" href="index.html">AR-PA Asesoramos empresas...</a>
                                 </h1>
                                 <div class="nav-collapse collapse">
-                                    <ul class="nav pull-right">
+                                    <ul class="nav pull-left">
                                         <li>
                                             <a href="index.html"><i class="icon-home"></i><br />Inicio</a>
                                         </li>
-                                         <li class="current-page">
+                                         <li class="current-page"> 
                                             <a href="about.html"><i class="icon-user"></i><br />Quienes Somos</a>
-                                        </li>                                     
-                                        <li class="dropdown">                                                                                                    	              														                                        
-                              	     <a  href="services.html" class="dropdown" data-hover="dropdown"><i class="icon-tasks"></i><br />Servicios<b class="caret"></b></a>
-                                           	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
- 															<li><a tabindex="-1" href="Servicios/comunicacion.html">Comunicación Organizacional</a></li>
-  															<li><a tabindex="-1" href="Servicios/outsourcing_comercial.html">Outsourcing Comercial</a></li>
-  															<li><a tabindex="-1" href="Servicios/opt_de_procesos.html">Optimización de Procesos de Gestión</a></li>  													
-
-															</ul>
+                                        </li> 
+                                        <li>                                                                                             	              														                                        
+                                            	<a  href="services.html"><i class="icon-tasks"></i><br />Servicios</a>                                           	
 													 									                                    
-                                        </li>
-                                       
+                                        </li>      	
+                                        <li>
+                                            <a href="clients.html"><i class="icon-bullseye"></i><br />Clientes</a>
+                                        </li>                                 
                                         <li>
                                             <a href="contact.html"><i class="icon-envelope-alt"></i><br />Contacto</a>
                                         </li>
@@ -77,7 +83,9 @@
                             </div>
                         </div>
                     </div>
+                 <div class="span1"></div>   
                 </div>
+               
         </div>
 
         <!-- Page Title -->
@@ -98,14 +106,19 @@
             <div class="row">
                 <div class="about-us-text span12">
                     <h4>Arpa. Corporaciones, proyectos y personas</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper <span class="violet">suscipit lobortis</span> nisl ut aliquip ex ea commodo consequat. Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>eiusmod tempor</strong> incididunt.</p>
+                    
                     <h4>Misión</h4>
-                    <p>1. Asesorar a organizaciones y acompañar procesos de crecimiento y mejora, trabajando en pilares claves como Comunicación interna y externa, Desarrollo Comercial y Optimización de procesos de gestión.
-								<br />2. Lograr la optimización de recursos en las organizaciones, a partir de la asesoría y acompañamiento, trabajando en pilares claves como Comunicación interna y externa, Desarrollo Comercial y Optimización de procesos de gestión</p>
+                    <p>Lograr la optimización de recursos en las organizaciones, a partir de nuestra asesoría y acompañamiento, trabajando en pilares claves como <b>Outsourcing Comercial, Comunicación Organizacional, Optimización de procesos de gestión y Formación Integral.</b></p>
 							<h4>Visión</h4>
-                    <p>Ser una empresa referente con profesionales dinámicos, que a través de estrategias innovadoras y un constante acompañamiento, logramos la optimización de recursos y la implementación de una gestión sostenible en todos los ámbitos de la organización.</p>                    
+                    <p>Ser referentes como profesionales innovadores y responsables, logrando una <b>Gestión Sostenible (GeS)</b> en las organizaciones, a partir de nuestras herramientas y asesoría.</p>                    
                     <h4>Valores</h4>
                     <p>Pasión como nuestro motor<br />Integridad como la base de nuestras acciones<br />Innovación continua como el factor clave que nos diferencia<br />Eficacia como el elemento que fideliza a nuestros clientes<br />Responsabilidad Social con las personas, el entorno y las organizaciones</p>
+						<h4>Un poco de historia...</h4>
+						<p>ARPA nace de un sueño que con mucho esfuerzo se hizo realidad. Allá por el 2006, 2007, todavía realizando nuestros estudios en Córdoba, Argentina, y café de por medio, decíamos: algún día vamos a tener una empresa que acompañe a otras empresas en su crecimiento…y se va a llamar ARPA, haciendo alusión a dos cosas: primero, a los países de origen de sus directores (Daniel, Argentina y Alejandra, Paraguay). Y por otra parte, al instrumento característico del Paraguay, porque con nuestra gestión buscamos la “armonía” en las organizaciones.  
+En el 2009 nos instalamos en Asunción, ambos trabajando en dependencia pero a la par realizando asesorías independientes a pequeñas empresas. Investigamos, conocimos, aprendimos y nos fortalecimos. Creamos un primer negocio pero no nos funcionó. Y ahí nos dimos cuenta que para emprender algo sostenible necesitábamos invertir no sólo esfuerzo sino también todo nuestro TIEMPO.
+En junio de 2011 tomamos la decisión de independizarnos y para el 1° de julio ya estábamos con nuestras computadoras y celulares como capital, iniciando esta apasionante aventura de ver crecer a ARPA.
+Hoy ya realizamos trabajos para más de 28 clientes con quienes estamos sumamente agradecidos, al igual que con Dios, por darnos salud, valor y por bendecirnos todos los días en este camino de aprendizaje y crecimiento personal y profesional.
+Moraleja: vale la pena soñar y vale la pena trabajar con pasión por ese sueño. En ARPA a eso le llamamos FELICIDAD!.</p>
                 </div>
             </div>
         </div>
@@ -113,158 +126,240 @@
         <!-- Meet Our Team -->
         <div class="team container">
             <div class="team-title">
-                <h3>Nuestro Equipo</h3>
+                <h3>En ARPA hay equipo</h3>
             </div>
             <div class="row">
-                <div class="team-text span3">
-                    <img src="assets/img/team/1.jpg" alt="">
-                    <h4>Alejandra Arréllaga </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
-                    <div class="social-links">
-                        <a class="facebook" href=""></a>
-                        <a class="twitter" href=""></a>
-                        <a class="linkedin" href=""></a>
-                        <a class="email" href=""></a>
-                    </div>
+                 <div class="team-text span2" data-toggle="modal" role="button"  href="#alejandra">                
+						<div id="alejandra" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Alejandra Arréllaga</h3>
+ 						 </div>
+                    
+                   <div class="modal-body">
+  							<img src="assets/img/team/1.jpg" alt="">
+   					 	<p>Licenciada en Comunicación Social, con énfasis en Comunicación Institucional por la Universidad Nacional de Córdoba (Argentina). Diplomatura en Conducción de RRHH y en Creación y Gestión de Microempresas. Especialista en Diagnóstico Organizacional, Planes de Comunicación Institucional y Gestión Corporativa. Corresponsal TELEVISA en Paraguay.<br>Ha asesorado a empresas privadas, instituciones bancarias, instituciones educativas, proyectos de organismos internacionales, organizaciones no gubernamentales y a proyectos del Gobierno local y Municipal.<br>Su experiencia laboral partió con la Fundación Internacional de formación de emprendedores Junior Achievement, desarrollando proyectos y organizando actividades en Paraguay, Argentina, Guatemala y México. Forjó su desempeño profesional participando de Congresos y Actividades Formativas en Argentina, Chile, Panamá, México, Guatemala, EEUU y España.</p>
+							<h4>ALGUNOS TRABAJOS REALIZADOS</h4>
+							<p><b>GRANUPLAST (fábrica de productos de polipropileno)</b></p>
+							<p>&bull; Diagnóstico Comunicacional, Plan de Comunicación y Desarrollo de la Identidad Corporativa.</p>																		
+							<p><b>MUNICIPALIDAD DE SAN BERNARDINO</b></p>
+							<p>&bull; Comunicación Institucional / Tercerización comercial para el desarrollo de la temporada veraniega 2013.</p>																			
+							<p><b>FUNDACION AVINA</b></p>
+							<p>&bull; Asesoría en comunicación.</p>																										 						
+							<p><b>COLEGIO SAN IGNACION DE LOYOLA</b></p>						
+							<p>&bull; Diagnóstico Comunicacional y Plan de Comunicación / Asesora Comunicacional externa.</p>														
+							<p><b>TELEVISA</b></p>
+							<p>&bull; Corresponsal en Paraguay desde 2011.</p>									
+							<p><b>EVAC México – Televisa</b></p>
+							<p>&bull; Coordinación General del evento Vanguardia Iberoamericana 2011.</p>	
+							<p><b>SUMARSE – INADEH (Panamá)</b></p>
+							<p>&bull; Disertaciones y Taller formativo en el marco de la “Semana de la Ética 2011 y 2013″ – Taller “Planificación Estratégica de la Comunicación Corporativa en el marco de la RSE 2012”</p>
+							<p><b>PACTO ETICO COMERCIAL – AMCHAM – CAP</b></p>
+							<p>&bull; Desarrollo de 3 Talleres de Gestión Ética Sustentable.</p>		
+							<p>PNUD – I	NDI</p>
+							<p>&bull; Proyecto “Desarrollo de Capacidades de Instituciones Locales para la Implementación de Políticas de Pueblos Indígenas, con énfasis en Territorialidad y Gobernabilidad”.</p>
+							<p></br><b>PNUD</b></p>
+							<p>&bull; Plan de Comunicación para la Oficina de Género.</p>		
+							<p><b>FUNDACION PARAGUAYA</b></p>
+							<p>&bull; Área Educación Emprendedora. Directora Comunicaciones y Proyectos.</p>		
+							<p><b>PNUD – AECID – MINISTERIO DEL INTERIOR</b></p>
+							<p>&bull; Proyecto “Atención Especializada a víctimas de violencia intrafamiliar y de género: seguridad ciudadana”. Plan de Comunicación y Ejecución del Plan de Comunicación.</p>		
+							<p><b>FUNDACIÓN CASA CUNA</b></p>
+							<p>&bull; Coordinación de la Campaña RED SOLIDARIA EMPRESARIAL</p>		
+							<p><b>USAID – CIRD – CEJ</b></p>
+							<p>&bull; Programa Desempeño Judicial, Transparencia y Acceso a la Información – Plan de Comunicación, Ejecución del Plan y Coordinación de la Campaña – Componente “Costo Social de la Corrupción”- Campaña Exigí. Controlá. Denunciá.</p>																
+							<p><b>BANCO CONTINENTAL</b></p>		
+							<p>&bull; Plan de Comunicación, Incorporación del Banco Mundial como Accionista del Banco Continental a través de la IFC.</p>					
+							<p><b>UNIVERSIDAD SAN CARLOS</b></p>		
+							<p>&bull; Desarrollo del Departamento de Comunicación Institucional.</p>				
+																															
+						 </div>
+ 						<div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  						</div>
                 </div>
-                <div class="team-text span3">
+                <img src="assets/img/team/1.jpg" alt="">
+                    <h4>Alejandra Arréllaga</h4>
+                    <p>Directora y Fundadora ARPA</p>
+                    <div class="social-links">
+                        <!--<a class="facebook" href=""></a>
+                        <a class="twitter" href=""></a>
+                        <a class="linkedin" href=""></a>-->
+                        <a class="email" href="mailto:alejandra@arpa.com.py"></a>
+                    </div>
+                 </div>
+                <div class="team-text span2" data-toggle="modal" role="button"  href="#daniel">                
+						<div id="daniel" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Daniel Juarez</h3>
+ 						 </div> 						
+  						<div class="modal-body">
+  							<img src="assets/img/team/2.jpg" alt="">
+   					 	<p>Diplomado en Técnicas de Venta y Negociación, y en Conducción de Recursos Humanos por la Escuela de Ejecutivos de la Universidad Nacional de Córdoba. Especialista en Desarrollo comercial de productos, servicios y/o empresas.<br></br>Forjó sus conocimientos profesionales basados en la Teoría KAIZEN en su experiencia laboral en Toyota Argentina como parte de Centro Motor Toyota (Córdoba). A partir del 2008, asesoró en comercialización y ventas a diferentes empresas en Paraguay.</p>
+							<h4>TRABAJOS EN DESARROLLO COMERCIAL</h4>
+							<p><b>GRANUPLAST (fábrica de productos de polipropileno)</b></p>
+							<p>&bull; Outsourcing comercial desde el 2011</p>		
+							<p>&bull; Desarrollo del Departamento Comercial: diseño, planificación, contratación de RRHH.</p>
+							<p>&bull; Implementación de la Estrategia Comercial: capacitación, seguimiento, fidelización de clientes.</p>											
+							<p><b>GOD´S PAN</b></p>
+							<p>&bull; Análisis de la gestión comercial</p>							
+							<p>&bull; Implementación de la Estrategia Comercial: capacitación, seguimiento, fidelización de clientes.</p>						
+							<p><b>IBAÑEZ CARGO (transporte)</b></p>
+							<p>&bull; Outsourcing comercial</p>							
+							<p>&bull; Optimización de procesos y recursos.</p>															 						
+							<p><b>MUNISA (fábrica de botas de seguridad)</b></p>						
+							<p>&bull; Outsourcing comercial</p>							
+							<p>&bull; Desarrollo del Departamento Comercial: diseño, planificación, contratación de RRHH.</p>								
+							<p>&bull; Implementación de la Estrategia Comercial: capacitación, seguimiento, fidelización de clientes.</p>
+							<p><b>ALBERDIN (gastronomía)</b></p>
+							<p>&bull; Diagnóstico Comercial: análisis, evaluación y planificación de estrategias comerciales.</p>	
+							<p>&bull; Implementación de la Estrategia Comercial: capacitación, seguimiento, fidelización de clientes.</p>	
+							<p><b>CASA BOLLER S.R.L. (empresa de biotecnología)</b></p>
+							<p>&bull; Asesoría Comercial para Proyecto CONACYT: Estudio de mercado, competidores y      clientes, potenciales clientes; estrategias comerciales sobre producto.</p>	
+							<p><b>SICG S.A. – South Informer Consulting Group (empresa de seguridad)</b></p>
+							<p>&bull; Gerente Comercial: estrategias comerciales, ampliación del producto a nuevos mercados, desarrollo de actividades para proyectos con entes gubernamentales, fidelización de clientes.</p>
+							<p><br></br><b>ARGENTINA</b></p>			
+							<p><b>TOYOTA ARGENTINA – CENTRO MOTOR S.A.</b></p>
+							<p>Departamento de Postventa: fidelización de clientes – Administración – Venta de productos y servicios – Coordinación de equipo de trabajo – Implementación de estrategias de mejora continua – Negociación con proveedores.</p>										
+						 </div>
+ 						 <div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  					</div>
+					</div>
                     <img src="assets/img/team/2.jpg" alt="">
                     <h4>Daniel Juárez</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                    <p>Director y Fundador ARPA</p>
                     <div class="social-links">
-                        <a class="facebook" href=""></a>
+                        <!--<a class="facebook" href=""></a>
                         <a class="twitter" href=""></a>
-                        <a class="linkedin" href=""></a>
-                        <a class="email" href=""></a>
+                        <a class="linkedin" href=""></a>-->
+                        <a class="email" href="mailto:daniel@arpa.com.py"></a>
                     </div>
                 </div>
-                <div class="team-text span3">
-                    <img src="assets/img/team/3.jpg" alt="">
-                    <h4>Lic. Graciela Garay</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
-                    <div class="social-links">
-                        <a class="facebook" href=""></a>
-                        <a class="twitter" href=""></a>
-                        <a class="linkedin" href=""></a>
-                        <a class="email" href=""></a>
-                    </div>
-                </div>
-                <div class="team-text span3">
+                <div class="team-text span2" data-toggle="modal" role="button"  href="#fabiola">                
+						<div id="fabiola" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Lic. Fabiola Alcorta</h3>
+ 						 </div>
+  						<div class="modal-body">
+  							<img src="assets/img/team/4.jpg" alt="">
+   					 <p>Licenciada en Ciencias de la Comunicación con énfasis en Comunicación Institucional por la Universidad Católica Nuestra Señora de la Asunción. Máster en Cooperación Internacional y Gestión de Proyectos. Instituto Universitario de Investigación Ortega y Gasset. Madrid – España. Realizó postgrados en “Elaboración de Materiales Didácticos” y en “Desarrollo Local y Economía Social” – Área de Estado y Políticas Públicas, en la Facultad Latinoamérica de Ciencias Sociales -FLACSO Argentina. Especialización en análisis y gestión de redes sociales, por la Universidad Bolivariana de Chile. <br></br>Ha trabajado como consultora para diferentes proyectos sociales y de organismos internacionales, organizaciones no gubernamentales, proyectos del Gobierno local, empresas privadas, etc. También realizó diferentes publicaciones.</p>
+ 					 </div>
+ 						 <div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  					</div>
+					</div>
                     <img src="assets/img/team/4.jpg" alt="">
-                    <h4>Lic. Fabiola Alcorta</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod...</p>
+                    <h4>PARTNER EN COMUNICACIÓN INSTITUCIONAL</h4>
+                    <p>Lic. Fabiola Alcorta</p>
                     <div class="social-links">
-                        <a class="facebook" href=""></a>
-                        <a class="twitter" href=""></a>
-                        <a class="linkedin" href=""></a>
                         <a class="email" href=""></a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-         <!-- Testimonials -->
-        <div class="testimonials container">
-            <div class="testimonials-title">
-                <h3>Testimonios</h3>
-            </div>
-            <div class="row">
-                <div class="testimonial-list span12">
-                    <div class="tabbable tabs-below">
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="A">
-                               
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                            </div>
-                            <div class="tab-pane" id="B">
-                               
-                                <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                            </div>
-                            <div class="tab-pane" id="C">
-                               
-                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur..."<br /><span class="violet">Lorem Ipsum, dolor.co.uk</span></p>
-                            </div>
-                            <div class="tab-pane" id="D">
-                               
-                                <p>"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat..."<br /><span class="violet">Minim Veniam, nostrud.com</span></p>
-                            </div>
-                        </div>
-                       <ul class="nav nav-tabs">
-                           <li class="active"><a href="#A" data-toggle="tab"></a></li>
-                           <li class=""><a href="#B" data-toggle="tab"></a></li>
-                           <li class=""><a href="#C" data-toggle="tab"></a></li>
-                           <li class=""><a href="#D" data-toggle="tab"></a></li>
-                       </ul>
-                   </div>
+                <div class="team-text span2" data-toggle="modal" role="button"  href="#emanuel">
+                <!-- Modal -->
+						<div id="emanuel" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Emanuel Mansilla</h3>
+ 						 </div>
+  						<div class="modal-body">
+  							<img src="assets/img/team/5.jpg" alt="">
+   					 <p>Maestría en Administración de Negocios (MBA) tesis en curso, y Especialista en Ingeniería Gerencial, escuela de 4to nivel UTN-FRC (Córdoba). Ingeniero Industrial (Universidad Tecnológica de Córdoba). Beca de estudio en Ingeniería Económica (Wirtschaftsingenieurwesen), Fachhochschule Esslingen, Hochschule für Technik, Alemania. Docente en Cátedra Simulación. Participación en proyectos I&D e integrante del Grupo de Investigación en Sistemas y Modelos para la Eficiencia en Organizaciones (GIMSE) de la UTN-FRC. Investigación, divulgación e implementación de metodologías para el desarrollo de la creatividad, la resiliencia y el bienestar de las personas en organizaciones con neurociencia aplicada.</p>
+ 					 </div>
+ 						 <div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  					</div>
+					</div>
+                    <img src="assets/img/team/5.jpg" alt="">
+                    <h4>PARTNERS EN GESTION DE PROCESOS<br></br></h4>
+                    <p>Emanuel Mansilla, DYNAMIS</p>
+                    <div class="social-links">
+                     <a class="email" href="mailto:procesos@arpa.com.py"></a>
+                    </div>
                 </div>
-            </div>
-        </div>
+                <div class="team-text span2" data-toggle="modal" role="button"  href="#guillermo">
+                <!-- Modal -->
+						<div id="guillermo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Guillermo Vega</h3>
+ 						 </div>
+  						<div class="modal-body">
+  							<img src="assets/img/team/6.jpg" alt="">
+   					 <p>Trabajó como Jefe de Gestión de la Calidad en industria Autopartista (Metalúrgica Pollastrini) y en industria de Bio-Ingeniería (Implantes RB). Jefe de Gestión de Mantenimiento en industria de Transporte de Pasajeros (Grupo Flecha Bus).<br></br>
+Participación en proyectos I&D e integrante del Grupo de Investigación en Sistemas y Modelos para la Eficiencia en Organizaciones (GIMSE) de la UTN FRC (Universidad Tecnológica Nacional). Docente en cátedra Simulación - UTN FRC.<br></br>
+Consultor especialista en diseño y desarrollo de simuladores de procesos, utilizando tecnología de eventos discretos.<br></br>
+Desarrollo e implementación de Sistemas de Gestión de Calidad y Mantenimiento</p>
+ 					 </div>
+ 						 <div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  					</div>
+					</div>
+                    <img src="assets/img/team/6.jpg" alt="">
+                    <h4>PARTNERS EN GESTION DE PROCESOS<br></br></h4>
+                    <p>Guillermo Vega</p>
+                    <div class="social-links">
+                     <a class="email" href="mailto:procesos@arpa.com.py"></a>
+                    </div>
+                </div>
+                <div class="team-text span2" data-toggle="modal" role="button"  href="#natalia">
+                <!-- Modal -->
+						<div id="natalia" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+ 						 <div class="modal-header">
+    						<h3 id="myModalLabel">Natalia Abdallah</h3>
+ 						 </div>
+  						<div class="modal-body">
+  							<img src="assets/img/team/7.jpg" alt="">
+   					 <p>Médica Cirujana, Universidad Nacional de Córdoba. Psiquiatría, Hospital Nacional de Clínicas. Intercambio Académico - Convenio JIMA, Universidad Autónoma de Tamaulipas, México. Magister en Psiconeuroendocrinoinmunología, Universidad Favaloro. Docencia y capacitación. Postítulo en Lenguaje Corporal UNC. Posgrado en Clínica Integrada Fenomenología, Enfoque Gestáltico y Mediation Therapeutique. Integrante del grupo de danzas “Casuarinas”. Investigación en salud, bienestar y neurociencia.</p>
+ 					 </div>
+ 						 <div class="modal-footer">
+    					<button class="btn btn-primary">Volver</button>
+  					</div>
+					</div>
+                    <img src="assets/img/team/7.jpg" alt="">
+                    <h4>PARTNERS EN FORMACION INTEGRAL<br></br></h4>
+                    <p>Natalia Abdallah</p>
+                    <div class="social-links">
+                     <a class="email" href="mailto:happier@arpa.com.py"></a>
+                    </div>
+                </div>
+              </div>
+            
+        </div> 
 
         <!-- Footer -->
-          <!-- Footer -->
-  <!-- Footer -->
-        <footer>
+      
+             <footer>
             <div class="container">
-                <div class="row-fluid">
-                   <!--  <div class="widget span3">
-                        <h4>Nosotros</h4>
-                        <p>Agregar pequeño texto</p>
-                        <p><a href="about.html">Leer más...</a></p>
-                    </div>-->
-                 <!--     <div class="widget span3">
-                        <h4>Últimos Tweets (Opcional)</h4>
-                        <div class="show-tweets"></div>
-                    </div>
-                    <div class="widget span3">
-                        <h4>Fotos (Opcional)</h4>
-                        <ul class="flickr-feed"></ul>
-                    </div>
-                    
-                <h4>Contacto</h4> -->
-                    <div class="widget span3">
-                       
-                       <p><i class="icon-map-marker"></i>Dirección de oficina</p>
-                    </div>
-                    <div class="widget span3">
-                        <p><i class="icon-phone"></i>Teléfono: 0039 333 12 68 347</p>
-                       </div>
-                    <div class="widget span3">   
-                       <p> <i class="icon-user"></i>Skype: arpa</p>
-                    </div>
-                    <div class="widget span3">
-                       <p><i class="icon-envelope-alt"></i>	Email: <a href="mailto:contact@arpa.com.py">contact@arpa.com.py</a></p>
-                    </div>
-                </div>
-                <div class="footer-border"></div>
-                <div class="row">
-                    <div class="copyright span4">
-                        <p>Copyright 2013 SM Asesores - All rights reserved.</p>
-                    </div>
-                    <div class="social span8">
-                        <a class="facebook" href="http://www.facebook.com/arpa"></a>                       
-                        <a class="twitter" href=""></a>
-                    </div>
-                </div>
-            </div>
+               <div class="row">
+               	<div class="span1"></div>
+						<div class="span10">								
+							<div class="row-fluid">
+							<div class="span5"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta)</p></div>							
+							<div class="span1"><p>/</p></div>							
+							<div class="span3"><p>cel:(595) 98 4119207 </p></div>							
+							<div class="span1"><p>/</p></div>
+							<div class="span2"><p>info@arpa.com.py</p></div>
+							</div>
+						</div>																					
+						<div class="span1"></div>
+					</div>
+					
+				</div>               
+            
         </footer>
+
         <!-- Javascript -->
         <script src="assets/js/jquery-1.8.2.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.flexslider.js"></script>
         <script src="assets/js/jquery.tweet.js"></script>
         <script src="assets/js/jflickrfeed.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <!--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
         <script src="assets/js/jquery.ui.map.min.js"></script>
         <script src="assets/js/jquery.quicksand.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/scripts.js"></script>
-       	<script src="assets/js/twitter-bootstrap-hover-dropdown.js?view=1"></script>       
-		<script>
-    		// very simple to use!
-    			$(document).ready(function() {
-      		$('.js-activated').dropdownHover().dropdown();
-    			});
-  			</script>
+        <script src="assets/js/twitter-bootstrap-hover-dropdown.js?view=1"></script>
+
     </body>
 
 </html>

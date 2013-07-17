@@ -11,7 +11,7 @@ $(window).load(function() {
 
 /*
     Filterable portfolio
-*/
+
 jQuery(document).ready(function() {
     $clientsHolder = $('ul.portfolio-img');
     $clientsClone = $clientsHolder.clone(); 
@@ -35,8 +35,7 @@ jQuery(document).ready(function() {
         });
     });
 });
-
-
+*/
 /*
     Pretty Photo
 */
@@ -47,7 +46,7 @@ jQuery(document).ready(function() {
 
 /*
     Show latest tweets
-*/
+
 jQuery(function($) {
     $(".show-tweets").tweet({
         username: "anli_zaimi",
@@ -67,11 +66,11 @@ jQuery(function($) {
         ticker();
     });
 });
-
+*/
 
 /*
     Flickr feed
-*/
+
 $(document).ready(function() {
     $('.flickr-feed').jflickrfeed({
         limit: 8,
@@ -81,11 +80,11 @@ $(document).ready(function() {
         itemTemplate: '<li><a href="{{link}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
     });
 });
-
+*/
 
 /*
     Google maps
-*/
+
 jQuery(document).ready(function() {
     var position = new google.maps.LatLng(-25.290646,-57.630723);
     $('.map').gmap({'center': position,'zoom': 15, 'disableDefaultUI':true, 'callback': function() {
@@ -95,10 +94,10 @@ jQuery(document).ready(function() {
     }); 
 });
 
-
+*/
 /*
     Contact form
-*/
+
 jQuery(document).ready(function() {
     $('.contact-form form').submit(function() {
 
@@ -131,6 +130,6 @@ jQuery(document).ready(function() {
         });
         return false;
     });
-});
+});*/
 
 

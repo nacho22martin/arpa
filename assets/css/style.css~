@@ -191,8 +191,7 @@ strong { font-weight: bold; }
 .flexslider li {
 	
 	width: 25px;
-	float: center;
-	
+
 	
 	}
 .flexslider .slides img {
@@ -206,6 +205,13 @@ strong { font-weight: bold; }
 	width: 40%;
 			
 		}
+		
+.flex-control-thumbs li {
+
+	float: center;
+			
+		}
+
 
 /* ----- Presentation ----- */
 
@@ -226,6 +232,13 @@ strong { font-weight: bold; }
     margin: 0 0 30px;
 
 }
+.presentation li {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 0 25px;
+	line-height:10px;
+}
+
 
 
 /* ----- What we do ----- */
@@ -237,7 +250,7 @@ strong { font-weight: bold; }
 .what-we-do .service {
 	 margin-bottom: 60px; 
 	 max-width: 370px;   
-	 min-height: 237px;
+	 min-height: 200px;
     padding-bottom: 23px;
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
@@ -265,6 +278,7 @@ strong { font-weight: bold; }
 
 .what-we-do .service h4 {
     margin-top: 5px;
+    margin-bottom: 30px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
@@ -318,6 +332,7 @@ strong { font-weight: bold; }
 }
 
 .what-we-do-2 .service {
+	
     padding-bottom: 23px;
     background: #F4D0D4;
     border-bottom: 2px solid #9d426b;
@@ -344,7 +359,8 @@ strong { font-weight: bold; }
 }
 
 .what-we-do-2 .service h4 {
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
@@ -497,68 +513,7 @@ strong { font-weight: bold; }
 }
 
 
-/* ----- Testimonials ----- */
 
-.testimonials {
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.testimonials-title {
-    background: url(../img/line.png) left center repeat-x;
-}
-
-.testimonials-title h3 {
-    width: 250px;
-    margin: 0 auto;
-    background: #fff;
-    font-family: 'Verdana', cursive;
-    font-size: 24px;
-    color: #5d5d5d;
-}
-
-.testimonial-list {
-    margin-top: 30px;
-    text-align: left;
-}
-
-.testimonial-list img {
-    float: left;
-    margin: 10px 0 0 60px;
-    border: 3px solid #eaeaea;
-}
-
-.testimonial-list p {
-    #padding: 0 30px 0 80px;
-    text-align: justify;
-    font-size: 17px;
-    line-height: 30px;
-    font-style: italic;
-}
-
-.testimonial-list .nav-tabs {
-    width: 200px;
-    float: right;
-    border: 0;
-}
-
-.testimonial-list .nav-tabs li {
-    margin-right: 6px;
-}
-
-.testimonial-list .nav-tabs li a {
-    width: 12px;
-    height: 12px;
-    padding: 0;
-    background: #eaeaea;
-    border: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-}
-
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #ddd; }
-.testimonial-list .nav-tabs li.active a { background: #9d426b; }
 
 
 /* ----- Footer ----- */
@@ -607,57 +562,6 @@ footer .widget p {
 
 footer .widget i {
     padding-right: 7px;
-}
-
-/* Twitter feed */
-.show-tweets {
-    margin: 0;
-    overflow-y: hidden;
-}
-
-.tweet_list {
-    height: 10em;
-    margin: 0;
-    padding: 0;
-    overflow-y: hidden;
-    list-style: none;
-}
-	
-.tweet_list li {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    list-style-type: none;
-    line-height: 24px;
-}
-		
-.tweet_list .tweet_avatar {
-    float: left;
-}
-		
-.tweet_list .tweet_avatar img {
-    vertical-align: middle;
-}
-
-/* Flickr feed */
-.flickr-feed {
-    margin: 16px 0 0 0;
-    overflow: hidden
-}
-
-.flickr-feed li {
-    float: left;
-    padding: 0 4px 4px 0;
-    list-style: none;
-}
-
-.flickr-feed li img {
-    width: 50px;
-    border: 2px solid #eaeaea;
-}
-
-.flickr-feed a:hover {
-    opacity: 0.7;
 }
 
 
@@ -782,9 +686,9 @@ footer .social a:hover { background-position: left top; }
 }
 
 .team-title h3 {
-    width: 220px;
+    width: 300px;
     margin: 0 auto;
-    background: #fff;
+    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
     font-family: 'Verdana', cursive;
     font-size: 24px;
     color: #5d5d5d;
@@ -792,6 +696,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text {
     margin-top: 40px;
+    margin-bottom: 2%;
     padding-bottom: 20px;
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
@@ -852,6 +757,69 @@ footer .social a:hover { background-position: left top; }
     line-height: 24px;
     font-style: italic;
 }
+.team .modal-footer .btn-primary {
+	color: #FDFDFD;
+	background-color: #610B4A;	
+	background-image: linear-gradient(to bottom,#610B4B,#610B4B);
+	
+	}
+.team .modal-body  p {
+	 text-align: left;     
+    line-height: 24px;
+    font-style: italic;
+}
+.team .modal-body li {
+    font-size: 12px;
+    text-align: justify;;
+    margin: 0 0 15px;
+	 line-height:14px;
+}
+	
+.team .modal-body img {
+	
+	margin-top: 2%;
+		
+	}
+
+.team img {
+	
+	margin-top: 10%;
+		
+	}
+.team img:hover {
+	
+	cursor: pointer;
+		
+	}
+	
+/********** ----- CLIENT PAGE ----- **********/
+
+.client-us {
+    margin-top: 20px;
+}
+
+.client-us-text {
+    padding: 10px 0;
+    text-align: left;
+    
+}
+
+.client-us-text h4 {
+	margin-top: 0.2em;
+	margin-bottom: 1.3em;
+    padding: 0 20px;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    color: #5d5d5d;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+.client-us-text p {
+    padding: 0 20px;
+    line-height: 28px;
+    font-size: 1.5em;
+}
 
 
 /********** ----- CONTACT PAGE ----- **********/
@@ -877,7 +845,7 @@ footer .social a:hover { background-position: left top; }
 .contact-us p {
     padding: 0 20px;
     line-height: 28px;
-    font-size: 13px;
+        font-size: 13px;
 }
 
 .contact-form {
@@ -986,6 +954,7 @@ footer .social a:hover { background-position: left top; }
 
 .services-full-width {
     margin-top: 20px;
+    min-height: 25em;
 }
 
 .services-full-width-text {
@@ -1145,9 +1114,33 @@ ul.portfolio-img li {
 
 .row.center {  margin: auto;   width: 100%; float: center;}
 
+/********** ----- ACCORDION ----- **********/
 
+.accordion-group h4 {
+	
+	text-align: left;
+	
+	}
+.accordion-group p {
+	
+	text-align: left;
+	font-size: 1.3em;
+	line-height: 2.5em;
+	
+	}
+
+
+@media (min-width: 1200px) {
+	
+	.span10 {
+		width: 95%;
+	}
+	
+}
 @media (min-width: 980px) and (max-width: 1200px) {
-
+	.span10 {
+		width: 95%;
+	}
     .flex-caption {
         max-width: 700px;
     }
@@ -1178,8 +1171,11 @@ ul.portfolio-img li {
 
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
 
+@media (min-width: 768px) and (max-width: 979px) {
+	 .span10 {
+			width: 95%;
+			}
     .header ul.nav li a {
         padding: 15px 20px 15px 20px;
         font-weight: normal;
@@ -1231,7 +1227,10 @@ ul.portfolio-img li {
         padding-left: 0;
         padding-right: 0;
     }
-
+	.span10 {
+			width: 95%;
+			}
+    
     .slider, .what-we-do, .portfolio {
         padding: 0 20px;
     }
@@ -1308,7 +1307,9 @@ ul.portfolio-img li {
 }
 
 @media (max-width: 480px) {
-
+		.span10 {
+			width: 95%;
+			}
     .tweet_list {
         height: 10em;
     }
