@@ -11,9 +11,8 @@
         <meta name="author" content="Ignacio" >
 			<meta name="keywords" content="consultoría, comercialización, simulación, procesos, soluciones">
         <!-- CSS -->
-       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
+       <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">-->    
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
@@ -40,15 +39,12 @@
         <!-- Header -->
         <div class="container">
                  <div class="row">
-                	<div class="span1"></div>
-                		<div class="span10">
+                		<div class="span12">
                			<img src="assets/img/top.png" alt="" style="width: 100%;">
-               		</div>
-	               <div class="span1"></div>
-   				</div>            
-                <div class="header row">
-						<div class="span1"></div>                    
-                    <div class="span10">
+               		</div>	               
+   					</div>            
+                	<div class="header row">						                  
+                    <div class="span12">
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -81,8 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                 <div class="span1"></div>   
+                    </div>                 
                 </div>
                
         </div>
@@ -90,70 +85,64 @@
         <!-- Slider -->
         
          <div class="container">         	
-                <div class="row">
-                	<div class="span1"></div>
-                    <div class="span10">
+                <div class="row">                	
+                    <div class="span12">
                     	<div class="slider" style="height: float">
  							 <div align="center">                        
                         <div class="flexslider">
                             <ul class="slides" >
                                 <li data-thumb="assets/img/dot.png">
-                                    <img src="assets/img/slider/1.jpg">
+                                    <img src="assets/img/slider/1.jpg" style="width: 100%;">
                                     <p class="flex-caption"><b>Un cliente</b> es aquella persona natural o jurídica que realiza la transacción comercial denominada compra. Cliente puede referirse a:
 En informática, cliente es un equipo o proceso que consume recursos y servicios brindados por otro llamado servidor, generalmente de forma remota.
 Un cliente de videojuego, usado para jugar un videojuego en línea y que se conecta a un servidor de videojuego.
 </p>
                                 </li>
-                                <li data-thumb="assets/img/dot.png">
-                                    <img src="assets/img/slider/2.jpg">
-                                    <p class="flex-caption">Un <b>proveedor de servicios</b> es una entidad que presta servicios a otras entidades. Por lo general, esto se refiere a un negocio que ofrece la suscripción o servicio web a otras empresas o particulares. Ejemplos de estos servicios incluyen: acceso a internet, operador de telefonía móvil, y alojamiento de aplicaciones web.</p>
+                                <li data-thumb="assets/img/dot.png"> 
+                                		<img src="assets/img/slider/2.jpg" style="width: 100%;">
+                                    <p class="flex-caption">Un <b>proveedor de servicios</b> es una entidad que presta servicios a otras entidades. Por lo general, esto se refiere a un negocio que ofrece la suscripción o servicio web a otras empresas o particulares. Ejemplos de estos servicios incluyen: acceso a internet, operador de telefonía móvil, y alojamiento de aplicaciones web.<br></br></p>
                                 </li>
                                 <li data-thumb="assets/img/dot.png">
-                                    <img src="assets/img/slider/3.jpg">
+                                    <img src="assets/img/slider/3.jpg" style="width: 100%;">
                                     <p class="flex-caption"><b>Internet</b> es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de protocolos TCP/IP, garantizando que las redes físicas heterogéneas que la componen funcionen como una red lógica única, de alcance mundial. Sus orígenes se remontan a 1969, cuando se estableció la primera conexión de computadoras, conocida como ARPANET, entre tres universidades en California y una en Utah, Estados Unidos.</p>
                                 </li>
                                 <li data-thumb="assets/img/dot.png">
-                                    <img src="assets/img/slider/4.jpg">
+                                    <img src="assets/img/slider/4.jpg" style="width: 100%;">
                                     <p class="flex-caption">El responsable de la comunidad virtual, digital, en línea o de internet, es quien actúa como auditor de la marca en los medios sociales; o gestor (también llamado en inglés como community manager) 1 cumple un nuevo rol dentro de la mercadotecnia, la Publicidad Online y la documentación, pues es una profesión emergente al igual que lo es el Record Manager.</p>
                                 </li>
                             </ul>
                        </div>
                      </div>                                       
                 		</div>
-            			</div>
-            			<div class="span1"></div>
-        				  
+            			</div>            			            			        				  
         			      </div>
        			 </div>
 			</div>
         <!-- Site Description -->
         <div class="presentation container">
+            <div class="span12 team-title">
+                
+            </div>
         	<div class="row">
-        		<div class="span1"></div>
-        		<div class="span10">	        		        		        		        	
-            <p><b>ARPA</b> (Argentina.Paraguay) se gesta con el fin de ofrecer un servicio diferenciado a las organizaciones en crecimiento, basando nuestro trabajo en 4 pasos:</p> 
-         
-            <ol type =a> 
-            	<li>conocer a la organización; </li>
-            	<li>analizar sus potencialidades y sus aspectos a mejorar;</li>            
-            	<li>planificar en base a lo urgente, lo necesario y lo pendiente;</li> 
-            	<li>acompañar la implementación del plan acordado.</li>
-            </ol>
-           	
-				<p><br></br>La experiencia nos ha demostrado que con ésta metodología se fortalecen los recursos y se logra una Gestión Sostenible (GeS) de toda la organización.</p>			            
+
+        		<div class="span12">	        		        		        		        	
+            <p><b>ARPA</b> (Argentina.Paraguay) se gesta con el fin de ofrecer un servicio diferenciado a las organizaciones en crecimiento, basando nuestro trabajo en 4 pasos:                      
+            	conocer a la organización;
+            	analizar sus potencialidades y sus aspectos a mejorar;            
+            	planificar en base a lo urgente, lo necesario y lo pendiente; 
+            	acompañar la implementación del plan acordado.           
+           		<br></br>La experiencia nos ha demostrado que con ésta metodología se fortalecen los recursos y se logra una Gestión Sostenible (GeS) de toda la organización.</p>			            
         		
-        		</div>
-        		<div class="span1"></div>
+        		</div>     	
 			</div>
+			<div class="team-title">
+                <p style="display: none;">.</p>
+         </div>
 		  </div>
         <!-- Services -->
         <div class="what-we-do container">
-            <!-- <div class="row center">
-            	
-           	<div class="span1"></div>
-            	<div class="class10">-->
-            		<div class="row">
-                	<div class="service span3">
+           <div class="row">           	            		
+                <div class="service span3">
                     <div class="icon-awesome">
                         <i class="icon-group"></i>
                     </div>
@@ -186,28 +175,14 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                   
                     <a href="services.html#collapseFour">Más</a>
                 </div>
-               <!-- </div>
-               </div>
-               <div class="span1"></div> -->    
-                       
-            </div>
+           </div>				
         </div>   
 
         <!-- Footer -->
      <footer>
             <div class="container">
-               <div class="row">
-               	<div class="span1"></div>
-						<div class="span10">								
-							<div class="row-fluid">
-							<div class="span5"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta)</p></div>							
-							<div class="span1"><p>/</p></div>							
-							<div class="span3"><p>cel:(595) 98 4119207 </p></div>							
-							<div class="span1"><p>/</p></div>
-							<div class="span2"><p>info@arpa.com.py</p></div>
-							</div>
-						</div>																					
-						<div class="span1"></div>
+               <div class="row">               	
+					 <p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta) / cel:(595) 98 4119207 / info@arpa.com.py</p>																																																					
 					</div>
 					
 				</div>               
@@ -220,18 +195,13 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
         <script src="assets/js/jquery.flexslider.js"></script>
         <script src="assets/js/jquery.tweet.js"></script>
         <script src="assets/js/jflickrfeed.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+      <!--  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
         <script src="assets/js/jquery.ui.map.min.js"></script>
         <script src="assets/js/jquery.quicksand.js"></script>
         <script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
         <script src="assets/js/scripts.js"></script>
         <script src="assets/js/twitter-bootstrap-hover-dropdown.js?view=1"></script>
-			<script>
-    		// very simple to use!
-    			$(document).ready(function() {
-      		$('.js-activated').dropdownHover().dropdown();
-    			});
-  			</script>
+
 
     </body>
 
