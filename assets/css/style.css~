@@ -7,7 +7,6 @@
  * Author URI: http://azmind.com
  *
  */
-@font-face { font-family: "PDFin"; src: url(../font/PFDinTextPro-Thin.ttf) format ("ttf"); }
 
 body {
 
@@ -177,7 +176,7 @@ strong { font-weight: bold; }
 
 .flex-caption {
 	position: relative;;
-	bottom: 7em;
+	bottom: 6.4em;
 	max-width:100%;
 	padding:1% 1%;
 	margin: 0 0 0 0px;
@@ -232,13 +231,23 @@ strong { font-weight: bold; }
 }
 
 .presentation p {
-	font-family: PDFin;
+	font-family: pf_dintext_prothin;
+	color: #9d426b;
 	line-height: 1.3em;
-	font-size: 1.8em;
+	font-size: 1.9em;
    text-align: justify;
    margin: 0 0 30px;
 
 }
+
+.presentation hr{
+	
+	color: #9d426b;
+	background-color:#9d426b;
+	height: 1px;
+	
+	}
+
 .presentation li {
     font-size: 18px;
     text-align: justify;

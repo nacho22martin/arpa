@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="assets/css/flexslider.css">
         <link rel="stylesheet" href="assets/css/font-awesome.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
 			
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -120,24 +121,20 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
 			</div>
         <!-- Site Description -->
         <div class="presentation container">
-            <div class="span12 team-title">
-                
-            </div>
-        	<div class="row">
-
-        		<div class="span12">	        		        		        		        	
+        <div class="row">
+				  	
+        		<div class="span12">
+        		<hr width=100% align="center"></hr> 	        		        		        		        	
             <p><b>ARPA</b> (Argentina.Paraguay) se gesta con el fin de ofrecer un servicio diferenciado a las organizaciones en crecimiento, basando nuestro trabajo en 4 pasos:                      
             	conocer a la organización;
             	analizar sus potencialidades y sus aspectos a mejorar;            
             	planificar en base a lo urgente, lo necesario y lo pendiente; 
             	acompañar la implementación del plan acordado.           
-           		<br></br>La experiencia nos ha demostrado que con ésta metodología se fortalecen los recursos y se logra una Gestión Sostenible (GeS) de toda la organización.</p>			            
-        		
-        		</div>     	
+           		La experiencia nos ha demostrado que con ésta metodología se fortalecen los recursos y se logra una Gestión Sostenible (GeS) de toda la organización.</p>			            
+        		<hr width=100% align="center"></hr> 
+        		</div>                
 			</div>
-			<div class="team-title">
-                <p style="display: none;">.</p>
-         </div>
+			
 		  </div>
         <!-- Services -->
         <div class="what-we-do container">
