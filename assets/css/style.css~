@@ -231,7 +231,7 @@ strong { font-weight: bold; }
 }
 
 .presentation p {
-	font-family: pf_dintext_prothin;
+	font-family: "pf_dintext_prothin";
 	color: #9d426b;
 	line-height: 1.3em;
 	font-size: 1.9em;
