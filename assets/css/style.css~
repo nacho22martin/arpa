@@ -8,6 +8,7 @@
  *
  */
 
+
 body {
 
     /*background: #fff;*/
@@ -28,7 +29,11 @@ body {
     font-size: 12px;
 }
 
-
+.container{
+	
+	width: 75%; 	
+	
+	}
 
 .violet { color: #9d426b; }
 
@@ -266,6 +271,12 @@ strong { font-weight: bold; }
     margin-top: 50px;
 }
 
+.what-we-do .span3{
+	
+	margin-left: 4%;
+	width:20%;	
+}
+
 .what-we-do .service {
 	 margin-bottom: 60px; 
 	 max-width: 370px;   
@@ -274,6 +285,7 @@ strong { font-weight: bold; }
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
 }
+
 
 .what-we-do .service:hover {
     box-shadow:
@@ -345,7 +357,7 @@ strong { font-weight: bold; }
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }
 /* ----- What we do Service page ----- */
-
+/*
 .what-we-do-2 {
     margin-top: 50px;
 }
@@ -426,7 +438,7 @@ strong { font-weight: bold; }
         0 5px 10px 0 rgba(0,0,0,.15) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }
-
+*/
 
 /* ----- Portfolio ----- */
 
@@ -553,29 +565,18 @@ footer .container {
 	margin-left: auto;
 	}
 
-footer .row {
-	margin-left:auto;
-	
-	background-color: #9d426b;
-	}
 
-footer .row p {
+footer  p {
 	margin-top: 1.8%;
 	font-family: courier new;
 	font-size: 1.3em;
 	color: #CEC7C7;	
-	letter-spacing: 0.1em;
-	
+
 	}
 footer .container h4{
 	text-align: left;
 }
-footer .span10 {
-	
-	background: #610B4B;
-	padding-top: 8px;
-	
-	}
+
 footer .widget {
     margin-top: 20px;
     text-align: left;
@@ -691,7 +692,7 @@ footer .social a:hover { background-position: left top; }
 
 .about-us-text {
     padding: 10px 0;
-    text-align: left;
+    text-align: justify;
 }
 
 .about-us-text h4 {
@@ -700,7 +701,7 @@ footer .social a:hover { background-position: left top; }
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #5d5d5d;
-    text-transform: uppercase;
+	 font-style: italic;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
@@ -714,6 +715,12 @@ footer .social a:hover { background-position: left top; }
 
 .team {
     margin-top: 30px;
+}
+
+.team .row {
+	
+	margin-left: 0;
+
 }
 
 .team-title {
@@ -730,12 +737,18 @@ footer .social a:hover { background-position: left top; }
 }
 
 .team-text {
+		
+	width: 16%;
+	margin-left: 0.6%;
     margin-top: 40px;
     margin-bottom: 2%;
     padding-bottom: 20px;
     background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
 }
+
+
+
 
 .team-text:hover img {
     opacity: 0.7;
@@ -758,9 +771,19 @@ footer .social a:hover { background-position: left top; }
 
 .team-text .social-links {
     margin-top: 15px;
+    
+    
 }
 
-.team-text .social-links a { display: inline-block; width: 24px; height: 24px; margin: 0 4px; vertical-align: middle; }
+.team-text .social-links a { 
+	display: inline-block; 
+	width: 7em; 
+	height: 24px; 
+	margin: 0 9%; 
+	vertical-align: middle; 
+	background-color: #9d426b;
+	color: #E0E0E0;
+	}
 
 .team-text .social-links a.twitter { background: url(../img/social-icons/twitter.png) left top no-repeat; }
 .team-text .social-links a.dribbble { background: url(../img/social-icons/dribbble.png) left top no-repeat; }
@@ -781,6 +804,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text h4 {
     margin-top: 20px;
+    min-height: 6em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
@@ -791,6 +815,7 @@ footer .social a:hover { background-position: left top; }
 .team-text p {
     line-height: 24px;
     font-style: italic;
+    min-height: 5em;
 }
 .team .modal-footer .btn-primary {
 	color: #FDFDFD;
@@ -840,20 +865,20 @@ footer .social a:hover { background-position: left top; }
 }
 
 .client-us-text h4 {
-	margin-top: 0.2em;
-	margin-bottom: 1.3em;
+	 margin-top: 0.2em;
+	 margin-bottom: 1.3em;
     padding: 0 20px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 2em;
     color: #5d5d5d;
-    text-transform: uppercase;
+    font-style: italic;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
 .client-us-text p {
     padding: 0 20px;
-    line-height: 28px;
-    font-size: 1.5em;
+	line-height: 1em;
+	font-size: 1.1em;
 }
 
 
@@ -1154,13 +1179,22 @@ ul.portfolio-img li {
 .accordion-group h4 {
 	
 	text-align: left;
-	
+	color: #888;	
 	}
+
+.accordion-group h4:hover {
+	
+	text-align: left;
+	color: #9d426b;
+	}
+	
+
 .accordion-group p {
 	
 	text-align: left;
 	font-size: 1.3em;
 	line-height: 2.5em;
+	color: #9d426b;
 	
 	}
 

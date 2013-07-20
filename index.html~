@@ -11,8 +11,8 @@
         <meta name="author" content="Ignacio" >
 			<meta name="keywords" content="consultoría, comercialización, simulación, procesos, soluciones">
         <!-- CSS -->
-       <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">-->    
+       <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">    
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/prettyPhoto/css/prettyPhoto.css">
         <link rel="stylesheet" href="assets/css/flexslider.css">
@@ -39,13 +39,12 @@
 
         <!-- Header -->
         <div class="container">
-                 <div class="row">
-                		<div class="span12">
-               			<img src="assets/img/top.png" alt="" style="width: 100%;">
-               		</div>	               
-   					</div>            
-                	<div class="header row">						                  
-                    <div class="span12">
+
+                		
+               	<img src="assets/img/top.png" alt="" style="width: 100%;">
+               			                       
+                	<div class="header">						                  
+                    
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -78,18 +77,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                 
+                                     
                 </div>
                
         </div>
 
         <!-- Slider -->
         
-         <div class="container">         	
-                <div class="row">                	
-                    <div class="span12">
+         <div class="container">         	                                 
                     	<div class="slider" style="height: float">
- 							 <div align="center">                        
+                     
                         <div class="flexslider">
                             <ul class="slides" >
                                 <li data-thumb="assets/img/dot.png">
@@ -113,17 +110,16 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                                 </li>
                             </ul>
                        </div>
-                     </div>                                       
-                		</div>
-            			</div>            			            			        				  
+                                                          
+            			          			            			        				  
         			      </div>
        			 </div>
 			</div>
         <!-- Site Description -->
         <div class="presentation container">
-        <div class="row">
+
 				  	
-        		<div class="span12">
+        		
         		<hr width=100% align="center"></hr> 	        		        		        		        	
             <p><b>ARPA</b> (Argentina.Paraguay) se gesta con el fin de ofrecer un servicio diferenciado a las organizaciones en crecimiento, basando nuestro trabajo en 4 pasos:                      
             	conocer a la organización;
@@ -132,13 +128,12 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
             	acompañar la implementación del plan acordado.           
            		La experiencia nos ha demostrado que con ésta metodología se fortalecen los recursos y se logra una Gestión Sostenible (GeS) de toda la organización.</p>			            
         		<hr width=100% align="center"></hr> 
-        		</div>                
-			</div>
+        		             
+
 			
 		  </div>
         <!-- Services -->
-        <div class="what-we-do container">
-           <div class="row">           	            		
+        <div class="what-we-do container"> 
                 <div class="service span3">
                     <div class="icon-awesome">
                         <i class="icon-group"></i>
@@ -172,16 +167,15 @@ Un cliente de videojuego, usado para jugar un videojuego en línea y que se cone
                   
                     <a href="services.html#collapseFour">Más</a>
                 </div>
-           </div>				
+		
         </div>   
 
         <!-- Footer -->
      <footer>
             <div class="container">
-               <div class="row">               	
+   	
 					 <p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta) / cel:(595) 98 4119207 / info@arpa.com.py</p>																																																					
-					</div>
-					
+
 				</div>               
             
         </footer>
