@@ -181,7 +181,7 @@ strong { font-weight: bold; }
 
 .flex-caption {
 	position: relative;;
-	bottom: 6.4em;
+	bottom: 4.5em;
 	max-width:100%;
 	padding:1% 1%;
 	margin: 0 0 0 0px;
@@ -309,12 +309,14 @@ strong { font-weight: bold; }
 
 .what-we-do .service h4 {
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 4em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    height: 3em;   
+
 }
 
 .what-we-do .service p {
@@ -699,7 +701,7 @@ footer .social a:hover { background-position: left top; }
     margin-top: 25px;
     padding: 0 20px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1.7em;
     color: #5d5d5d;
 	 font-style: italic;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
@@ -708,7 +710,7 @@ footer .social a:hover { background-position: left top; }
 .about-us-text p {
     padding: 0 20px;
     line-height: 28px;
-    font-size: 13px;
+    font-size: 1.2em;
 }
 
 /* ----- Meet our team ----- */
@@ -804,7 +806,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text h4 {
     margin-top: 20px;
-    min-height: 6em;
+    min-height: 3em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
@@ -818,8 +820,8 @@ footer .social a:hover { background-position: left top; }
     min-height: 5em;
 }
 .team .modal-footer .btn-primary {
-	color: #FDFDFD;
-	background-color: #610B4A;	
+	color: #9d426b;
+	background-color: #9d426b;	
 	background-image: linear-gradient(to bottom,#610B4B,#610B4B);
 	
 	}
@@ -1015,6 +1017,7 @@ footer .social a:hover { background-position: left top; }
 .services-full-width {
     margin-top: 20px;
     min-height: 25em;
+    margin-bottom: 10em;
 }
 
 .services-full-width-text {
@@ -1179,7 +1182,8 @@ ul.portfolio-img li {
 .accordion-group h4 {
 	
 	text-align: left;
-	color: #888;	
+	color: #888;
+	font-size: 2em;	
 	}
 
 .accordion-group h4:hover {
@@ -1193,7 +1197,7 @@ ul.portfolio-img li {
 	
 	text-align: left;
 	font-size: 1.3em;
-	line-height: 2.5em;
+	line-height: 2.2em;
 	color: #9d426b;
 	
 	}
@@ -1212,6 +1216,8 @@ ul.portfolio-img li {
 	}
     .flex-caption {
         max-width: 100%;
+        bottom: 5.5em;
+        height: 7em;
     }
     
      .flexslider {
@@ -1267,6 +1273,8 @@ ul.portfolio-img li {
 
     .flex-caption {
         max-width: 100%;
+        bottom: 7.5em;
+		  height: 7em;
     }
 
     .what-we-do .service p, .portfolio .work p {

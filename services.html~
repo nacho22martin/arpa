@@ -100,13 +100,13 @@
         	<div class="accordion-group">
         		<div class="accordion-heading">
         			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">         				               
-                    <h4>Outsourcing Comercial</h4>     
+                    <h4><i class="icon-bar-chart"></i>&nbsp;&nbsp; Outsourcing Comercial</h4>     
                </a>       
             </div>
             	<div id="collapseOne" class="accordion-body collapse">
             		 <div class="accordion-inner">            		   
-                    	<p><b>Departamento Comercial:</b> estructuración, selección del RRHH calificado, planificación estratégica a resultados, servicio de post venta.</p>
-							<p><b>Outsourcing comercial:</b> tercerización de fuerza de ventas, equipos comerciales externos, entrenamiento a vendedores.</p>
+                    	<p><b>Departamento Comercial:</b> estructuración, selección del RRHH calificado, planificación estratégica a resultados, servicio de post venta.</br>
+							<b>Outsourcing comercial:</b> tercerización de fuerza de ventas, equipos comerciales externos, entrenamiento a vendedores.</p>
 							<p><b>Broker:</b> estudio de mercado y gestión para la generación de nuevos canales de ventas y nuevos negocios.</p>
 							<p><b>Fidelización de Clientes:</b> sistemas de captación y retención de clientes implementando estrategias sostenibles.</p>
 							<p><b>Servicio de callcenter:</b> estructuración de fuerza de venta a través un centro de llamadas; departamentos de atención a clientes, atención de reclamos, comercialización de todo tipo de productos.</p>                		
@@ -116,7 +116,7 @@
         	<div class="accordion-group">
         		<div class="accordion-heading">
         			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">           
-                    <h4>Comunicación Organizacional</h4>
+                    <h4><i class="icon-group"></i>&nbsp;&nbsp; Comunicación Organizacional</h4>
                </a>       
             </div>
             <div id="collapseTwo" class="accordion-body collapse">  
@@ -132,7 +132,7 @@
         <div class="accordion-group">
         		<div class="accordion-heading">
         			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">           
-                    <h4>Optimización de Procesos de Gestión</h4>
+                    <h4><i class="icon-sitemap"></i>&nbsp;&nbsp; Optimización de Procesos de Gestión</h4>
                </a>       
             </div>
             <div id="collapseThree" class="accordion-body collapse">  
@@ -149,7 +149,7 @@
         <div class="accordion-group">
         		<div class="accordion-heading">
         			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">           
-                    <h4>Happier</h4>
+                    <h4><i class="icon-smile"></i>&nbsp;&nbsp; Happier</h4>
                </a>       
             </div>
             <div id="collapseFour" class="accordion-body collapse">  
@@ -169,22 +169,11 @@
  
         <!-- Footer -->
          <!-- Footer -->
-      <footer>
+     <footer>
             <div class="container">
-               <div class="row">
-               	<div class="span1"></div>
-						<div class="span10">								
-							<div class="row-fluid">
-							<div class="span5"><p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta)</p></div>							
-							<div class="span1"><p>/</p></div>							
-							<div class="span3"><p>cel:(595) 98 4119207 </p></div>							
-							<div class="span1"><p>/</p></div>
-							<div class="span2"><p>info@arpa.com.py</p></div>
-							</div>
-						</div>																					
-						<div class="span1"></div>
-					</div>
-					
+   	
+					 <p>Primer Presidente 3708 esq. Américo Merlo (Planta Alta) / cel:(595) 98 4119207 / info@arpa.com.py</p>																																																					
+
 				</div>               
             
         </footer>
