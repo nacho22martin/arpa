@@ -820,9 +820,9 @@ footer .social a:hover { background-position: left top; }
     min-height: 5em;
 }
 .team .modal-footer .btn-primary {
-	color: #9d426b;
+	color: white;
 	background-color: #9d426b;	
-	background-image: linear-gradient(to bottom,#610B4B,#610B4B);
+	background-image: linear-gradient(to bottom,#9d426b,#9d426b);
 	
 	}
 .team .modal-body  p {
@@ -1182,8 +1182,8 @@ ul.portfolio-img li {
 .accordion-group h4 {
 	
 	text-align: left;
-	color: #888;
-	font-size: 2em;	
+	color: #575555;
+	font-size: 1.7em;	
 	}
 
 .accordion-group h4:hover {
