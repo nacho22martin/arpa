@@ -12,7 +12,9 @@
 body {
 
     /*background: #fff;*/
-    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+  	 background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    
+ 	 
     -moz-box-shadow:
         0 5px 15px 0 rgba(0,0,0,.05) inset,
         0 -5px 15px 0 rgba(0,0,0,.05) inset;
@@ -52,7 +54,12 @@ strong { font-weight: bold; }
 
 
 /* ----- Header ----- */
-
+#header.row {
+height: 5.6em;
+margin: 0;
+background: #f8f8f8 url(../img/top.png) repeat-y scroll left top;
+background-size:100%;
+}
 .header .navbar {
     margin-bottom: 0;
     background: #610B4B;
@@ -272,7 +279,7 @@ strong { font-weight: bold; }
 }
 
 .what-we-do .span3{
-	
+
 	margin-left: 4%;
 	width:20%;	
 }
@@ -359,24 +366,52 @@ strong { font-weight: bold; }
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }
 /* ----- What we do Service page ----- */
-/*
+
 .what-we-do-2 {
     margin-top: 50px;
+    margin-bottom: 10em;
+}
+.what-we-do-2 h4{ 
+	margin-top:30%;
+	color: #fff;
+	min-height: 5em;
+
+}
+.what-we-do-2 .span3{
+	
+	margin-left: 4%;
+	width:20%;	
+	min-height: 203px;
+}
+.what-we-do-2 table {
+
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.what-we-do-2 td {
+
+width: 100%;
+height: 100%;
+
 }
 
 .what-we-do-2 .service {
-	
+	 margin-bottom: 60px; 
+	 max-width: 370px;   
+	 min-height: 200px;
     padding-bottom: 23px;
-    background: #F4D0D4;
+    background: #f8f8f8;
     border-bottom: 2px solid #9d426b;
-    
 }
+
 
 .what-we-do-2 .service:hover {
     box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.1),
-        0 1px 25px 0 rgba(0,0,0,.1) inset,
-        0 -1px 25px 0 rgba(0,0,0,.1) inset;
+        0 5px 15px 0 rgba(0,0,0,.05),
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
     -o-transition: all .5s;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
@@ -389,16 +424,19 @@ strong { font-weight: bold; }
     font-size: 50px;
     line-height: 50px;
     color: #5d5d5d;
+    
 }
 
 .what-we-do-2 .service h4 {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 4em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
     text-transform: uppercase;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    height: 3em;   
+
 }
 
 .what-we-do-2 .service p {
@@ -440,7 +478,13 @@ strong { font-weight: bold; }
         0 5px 10px 0 rgba(0,0,0,.15) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }
-*/
+
+.container-service {
+	
+	width: 150px;
+	
+		
+	}
 
 /* ----- Portfolio ----- */
 
@@ -1178,20 +1222,33 @@ ul.portfolio-img li {
 .row.center {  margin: auto;   width: 100%; float: center;}
 
 /********** ----- ACCORDION ----- **********/
+.accordion-group{
+
+    margin-bottom: 2em;
+
+
+}
+
 
 .accordion-group h4 {
 	
 	text-align: left;
 	color: #575555;
-	font-size: 1.7em;	
+	font-size: 1.7em;
+
 	}
 
-.accordion-group h4:hover {
+/*.accordion-group h4:hover {
 	
 	text-align: left;
 	color: #9d426b;
-	}
-	
+	}*/
+
+.accordion-group i {
+
+    font-size: 3em;
+
+}
 
 .accordion-group p {
 	
@@ -1201,7 +1258,11 @@ ul.portfolio-img li {
 	color: #9d426b;
 	
 	}
+/*.accordion-heading {
 
+    height: 7em;
+    
+}*/
 
 @media (min-width: 1200px) {
 
