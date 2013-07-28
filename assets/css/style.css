@@ -374,7 +374,7 @@ background-size:100%;
 
     font-family: "pf_dintext_prothin";
     font-size: 2em;
-    margin-top: 12%;
+    margin-top: 6%;
     margin-bottom: -11%;
     color: #ECECEC;
     min-height: 3em;
@@ -430,11 +430,11 @@ margin-right: auto;
     
 }
 
-.what-we-do-2 .service .icon-awesome {
-    margin-top: 15px;
+.what-we-do-2 .span3 .icon-awesome {
+    margin-top: 6px;
     font-size: 50px;
     line-height: 50px;
-    color: #5d5d5d;
+    color: rgba(54, 54, 54, 0.32);
     
 }
 
@@ -617,7 +617,7 @@ footer {
 
 footer .container {
 		
-	background-color: #9d426b;	
+	background-color: #610B4B;	
 	margin-right: auto;
 	margin-left: auto;
 	}
@@ -755,6 +755,21 @@ footer .social a:hover { background-position: left top; }
 #service.about-us-text p {
 
     color: #443D3D;
+}
+
+#about.row-fluid{
+    background-image: url(../img/about.png);
+    padding-bottom: 8em;
+    text-align: justify;
+    margin-top: 3em;
+    margin-bottom: 4em;
+
+}
+
+#about.row-fluid h4{
+
+    text-align: left;
+
 }
 .about-us {
     margin-top: 20px;

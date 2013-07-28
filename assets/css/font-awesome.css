@@ -304,3 +304,23 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-paste:before                { content: "\f0ea"; }
 
 .icon-user-md:before              { content: "\f200"; }
+.icons-ul {
+  
+  list-style-type: none;
+  padding: 0 20px;
+  line-height: 28px;
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  text-align: justify;
+}
+.icons-ul > li {
+  position: relative;
+  line-height: 28px;
+}
+.icons-ul .icon-li {
+ position: absolute;
+  left: -2.142857142857143em;
+  width: 2.142857142857143em;
+  text-align: center;
+  line-height: inherit;
+}
