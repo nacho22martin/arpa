@@ -759,12 +759,27 @@ footer .social a:hover { background-position: left top; }
     color: #443D3D;
 }
 
+
+
 #about.row-fluid{
-    background-image: url(../img/about.png);
+
     padding-bottom: 8em;
-    text-align: justify;
+    text-align: left;
     margin-top: 3em;
-    margin-bottom: 4em;
+    margin-bottom: 0;
+
+}
+
+
+
+#about.row-fluid .span4{
+
+    min-height: 30em;
+    background: #f8f8f8 url(../img/pattern.jpg) left top repeat;
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset, 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+
 
 }
 
@@ -1394,6 +1409,11 @@ ul.portfolio-img li {
 
     .call-to-action-text .ca-button {
         margin-top: 10px;
+    }
+    #about.row-fluid .span4 {
+
+        min-height: 48em;
+
     }
 
 }

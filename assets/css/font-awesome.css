@@ -310,8 +310,8 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
   padding: 0 20px;
   line-height: 28px;
   font-size: 1.2em;
-  margin: 0 0 0 0;
-  text-align: justify;
+  margin: 0 0 0 7%;
+  text-align: left;
 }
 .icons-ul > li {
   position: relative;
