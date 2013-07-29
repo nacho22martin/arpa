@@ -373,13 +373,15 @@ background-size:100%;
 .what-we-do-2 h4{ 
 
     font-family: "pf_dintext_prothin";
-    font-size: 2em;
+    font-size: 1.8em;
+    font-weight: bold;
     margin-top: 6%;
     margin-bottom: -11%;
-    color: #ECECEC;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    color: #FFFFFF;
     min-height: 3em;
     line-height: 1.2em;
-
 }
 .what-we-do-2 .span3{
 	
@@ -431,10 +433,10 @@ margin-right: auto;
 }
 
 .what-we-do-2 .span3 .icon-awesome {
-    margin-top: 6px;
-    font-size: 50px;
+    margin-top: 20px;
+    font-size: 3em;
     line-height: 50px;
-    color: rgba(54, 54, 54, 0.32);
+    color: #fff;
     
 }
 
