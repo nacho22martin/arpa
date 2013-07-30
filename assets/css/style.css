@@ -373,10 +373,10 @@ background-size:100%;
 .what-we-do-2 h4{ 
 
     font-family: "pf_dintext_prothin";
-    font-size: 1.7em;
+    font-size: 1.4em;
     font-weight: bold;
     margin-top: 6%;
-    margin-bottom: -11%;
+    margin-bottom: -3%;
     margin-right: 0.5em;
     margin-left: 0.5em;
     color: #FFFFFF;
@@ -628,7 +628,7 @@ footer .container {
 footer  p {
 	margin-top: 1.8%;
 	font-family: courier new;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	color: #CEC7C7;	
 
 	}
