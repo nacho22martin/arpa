@@ -290,15 +290,15 @@ background-size:100%;
 	 min-height: 200px;
     padding-bottom: 23px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    /*border-bottom: 2px solid #9d426b;*/
 }
 
 
-.what-we-do .service:hover {
+.what-we-do .service:hover {    
     box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05),
-        0 1px 25px 0 rgba(0,0,0,.05) inset,
-        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    0 5px 15px 0 rgba(119, 119, 119, 1), 
+    0 5px 25px 0 rgba(129, 123, 123, 0.85) inset, 
+    0 -5px 25px 0 rgba(177, 177, 177, 0.53) inset;
     -o-transition: all .5s;
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
@@ -310,18 +310,19 @@ background-size:100%;
     margin-top: 15px;
     font-size: 50px;
     line-height: 50px;
-    color: #5d5d5d;
+    color: #ECECEC;
     
 }
 
 .what-we-do .service h4 {
-    margin-top: 5px;
+    margin-top: 1em;
     margin-bottom: 4em;
+    padding: 0 2px 0 2px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color: #5d5d5d;
+    color: #ECECEC;
     text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    /*text-shadow: 0 1px 0 rgba(255,255,255,.7);*/
     height: 3em;   
 
 }
@@ -333,7 +334,8 @@ background-size:100%;
 
 .what-we-do .service a {
     padding: 5px 22px;
-    background: #9d426b;
+    /*background: rgba(97, 11, 75, 0.61);*/
+    font-size: 2em;
     color: #fff;
     font-style: italic;
     text-decoration: none;
@@ -344,8 +346,8 @@ background-size:100%;
         0 1px 25px 0 rgba(0,0,0,.05) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
     box-shadow:
-        0 1px 25px 0 rgba(0,0,0,.05) inset,
-        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+        0 1px 25px 0 rgba(231, 231, 231, 0.32) inset,
+        0 -1px 25px 0 rgba(255, 255, 255, 0.18) inset;
 }
 
 .what-we-do .service a:hover {
