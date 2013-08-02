@@ -981,11 +981,16 @@ footer .social a:hover { background-position: left top; }
     text-align: left;
     
 }
+.client-us-text i{
+
+    margin-left: -1.2em;
+    
+}
 
 .client-us-text h4 {
-	 margin-top: 0.2em;
-	 margin-bottom: 1.3em;
-    padding: 0 20px;
+	margin-top: 0.2em;
+	margin-bottom: 1.3em;
+    
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 2em;
     color: #5d5d5d;
@@ -994,9 +999,9 @@ footer .social a:hover { background-position: left top; }
 }
 
 .client-us-text p {
-    padding: 0 20px;
+    padding: 0 1.2em;
 	line-height: 1em;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 
 
