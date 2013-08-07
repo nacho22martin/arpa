@@ -287,7 +287,7 @@ background-size:100%;
 .what-we-do .service {
 	 margin-bottom: 60px; 
 	 max-width: 370px;   
-	 min-height: 190px;
+	 min-height: 180px;
     padding-bottom: 23px;
     background: #f8f8f8;
     /*border-bottom: 2px solid #9d426b;*/
@@ -323,7 +323,7 @@ font-size: 1.5em;
     margin-bottom: 0em;
     padding: 0 2px 0 2px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: #ECECEC;
     text-transform: uppercase;
     /*text-shadow: 0 1px 0 rgba(255,255,255,.7);*/
@@ -883,7 +883,7 @@ footer .social a:hover { background-position: left top; }
 }
 
 .team-text .social-links {
-    margin-top: 15px;
+
     
     
 }
@@ -916,8 +916,8 @@ footer .social a:hover { background-position: left top; }
 .team-text .social-links a:hover { background-position: left bottom; }
 
 .team-text h4 {
-    margin-top: 20px;
-    min-height: 3em;
+    margin-top: 15px;
+    min-height: 1em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
@@ -926,9 +926,9 @@ footer .social a:hover { background-position: left top; }
 }
 
 .team-text p {
-    line-height: 24px;
+    line-height: 15px;
     font-style: italic;
-    min-height: 5em;
+    min-height: 3em;
 }
 
 .team-text.span3 h4 {
