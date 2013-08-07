@@ -109,6 +109,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-smile:before 					{ content: "\f118";}
 .icon-bullseye:before 				{ content: "\f140";}
 .icon-chevron-sign-right:before { content: "\f138";}
+.icon-play-sign:before 				{  content: "\f144";}
 
 /* \f020 doesn't work in Safari. all shifted one down */
 .icon-refresh:before              { content: "\f021"; }
