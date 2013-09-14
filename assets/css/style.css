@@ -86,7 +86,7 @@ background-size:100%;
     display: inline-block;
     text-indent: -9999px;
     width: 210px;
-    height: 0;
+    height: 5px;
     padding: 27px 0;
     background: url(../img/logo.png) 20px center no-repeat;
 }
@@ -101,7 +101,7 @@ background-size:100%;
     padding: 8px 30px 10px 30px;
     color: #A4A4A4;
     text-shadow: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .header ul.nav li .dropdown a {
     padding: 30px 20px 10px 20px;
@@ -642,7 +642,7 @@ footer .container {
 footer  p {
 	margin-top: 1.8%;
 	font-family: courier new;
-	font-size: 1.1em;
+	font-size: 1em;
 	color: #CEC7C7;	
 
 	}
