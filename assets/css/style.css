@@ -190,16 +190,17 @@ background-size:100%;
 .flex-caption {
 	position: relative;;
 	bottom: 4.5em;
-	max-width:100%;
+	max-width:50%;
 	padding:1% 1%;
 	margin: 0 0 0 0px;
 	background: #1d1d1d;
 	background: rgba(66, 15, 68, .7);
-	font-size: 14px;
+	font-size: 1.3em;
 	line-height: 24px;
 	color: #eaeaea;
 	font-style: italic;
 	text-align: justify;;
+    float:right;
 }
 
 .flexslider li {
@@ -288,7 +289,7 @@ background-size:100%;
 
 .what-we-do .service {
 	 margin-bottom: 60px; 
-	 max-width: 370px;   
+	 width: 17.8%;   
 	 min-height: 180px;
     padding-bottom: 23px;
     background: #f8f8f8;
@@ -325,7 +326,7 @@ font-size: 1.5em;
     margin-bottom: 0em;
     padding: 0 2px 0 2px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #ECECEC;
     text-transform: uppercase;
     /*text-shadow: 0 1px 0 rgba(255,255,255,.7);*/
@@ -355,12 +356,12 @@ font-size: 1.5em;
         0 1px 25px 0 rgba(231, 231, 231, 0.32) inset,
         0 -1px 25px 0 rgba(255, 255, 255, 0.18) inset;*/
 }
-.what-we-do .span3:first-child {
+.what-we-do .span2:first-child {
     margin-left: 0;
 }
-.what-we-do .span3:last-child {
+.what-we-do .span2:last-child {
     margin-right: 0;
-}
+}   
 
 .what-we-do .service a:hover {
     -moz-box-shadow: none;
@@ -387,7 +388,7 @@ font-size: 1.5em;
 .what-we-do-2 h4{ 
 
     font-family: "pf_dintext_prothin";
-    font-size: 1.4em;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 6%;
     margin-bottom: -3%;
@@ -400,7 +401,7 @@ font-size: 1.5em;
 .what-we-do-2 .span3{
 	
 	margin-left: 3%;
-    width: 21%;
+    width: 17%;
 	min-height: 203px;
 }
 
@@ -816,6 +817,15 @@ footer .social a:hover { background-position: left top; }
     padding: 0 20px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 1.6em;
+    color: #5d5d5d;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+.about-us-text h5 {
+    margin-top: 25px;
+    padding: 0 20px;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
     color: #5d5d5d;
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
