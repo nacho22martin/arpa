@@ -289,7 +289,7 @@ background-size:100%;
 
 .what-we-do .service {
 	 margin-bottom: 60px; 
-	 width: 17.8%;   
+	 width: 17.6%;   
 	 min-height: 180px;
     padding-bottom: 23px;
     background: #f8f8f8;
@@ -845,6 +845,8 @@ footer .social a:hover { background-position: left top; }
 .team .row {
 	
 	margin-left: 0;
+    text-align: -moz-center;
+    display: inline-block;
 
 }
 
