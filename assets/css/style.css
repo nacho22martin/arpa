@@ -931,7 +931,7 @@ footer .social a:hover { background-position: left top; }
 
 .team-text h4 {
     margin-top: 15px;
-    min-height: 1em;
+    min-height: 3em;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #5d5d5d;
