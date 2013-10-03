@@ -289,7 +289,8 @@ background-size:100%;
 
 .what-we-do .service {
 	 margin-bottom: 60px; 
-	 width: 17.6%;   
+	 width: 17%;   
+     margin-left: 3%;
 	 min-height: 180px;
     padding-bottom: 23px;
     background: #f8f8f8;
@@ -356,10 +357,10 @@ font-size: 1.5em;
         0 1px 25px 0 rgba(231, 231, 231, 0.32) inset,
         0 -1px 25px 0 rgba(255, 255, 255, 0.18) inset;*/
 }
-.what-we-do .span2:first-child {
+.what-we-do .span3:first-child {
     margin-left: 0;
 }
-.what-we-do .span2:last-child {
+.what-we-do .span3:last-child {
     margin-right: 0;
 }   
 
@@ -1414,7 +1415,6 @@ ul.portfolio-img li {
 	.span10 {
 		width: 95%;
 	}
-	
 }
 @media (min-width: 980px) and (max-width: 1200px) {
 	.span10 {
@@ -1513,6 +1513,14 @@ ul.portfolio-img li {
         padding-left: 0;
         padding-right: 0;
     }
+    .what-we-do .service{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .what-we-do-2 .span3 {
+        margin-left: 0%;
+        width: 100%;
+    }
 	.span10 {
 			width: 95%;
 			}
@@ -1600,7 +1608,15 @@ ul.portfolio-img li {
 		.span10 {
 			width: 95%;
 			}
-    
+        .what-we-do .service{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .what-we-do-2 .span3 {
+                margin-left: 0%;
+        width: 100%;
+    }
     .tweet_list {
         height: 10em;
     }

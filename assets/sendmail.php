@@ -32,11 +32,9 @@ if($_POST) {
     }
     if($clientName != '' && isEmail($clientEmail) && $message != '') {
         // Send email
-	$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com',
-                                              465,
-                                              'ssl')
-             ->setUsername('nacho22martin@gmail.com')
-             ->setPassword('im2010na');
+	$transport = Swift_SmtpTransport::newInstance('mail.arpa.com.py',25)
+             ->setUsername('webmaster@arpa.com.py')
+             ->setPassword('w3@it!!');
  
 	//Creamos el mailer pasándole el transport con la configuración de gmail
 		$mailer = Swift_Mailer::newInstance($transport);
